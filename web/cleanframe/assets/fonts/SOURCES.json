@@ -34,5 +34,20 @@
     "bytes": 4394,
     "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
     "unchanged_upstream_bytes": true
+  },
+  {
+    "family": "googlesans",
+    "file": "googlesansflex/GoogleSansFlex.woff2",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesansflex/GoogleSansFlex%5BROND,opsz,slnt,wdth,wght%5D.ttf",
+    "accessed": "2026-11-25",
+    "unchanged_upstream_bytes": false,
+    "note": "fonttools: instanced at ROND=0 slnt=0 wdth=100 opsz default, subset to Latin and Latin Extended-A, woff2 (sha256 of the upstream file a9ac770798857d5e8ac593ced42b22e40a7c08cec98319f92b0eccc2783a77ba)"
+  },
+  {
+    "family": "googlesans",
+    "file": "googlesansflex/OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesansflex/OFL.txt",
+    "accessed": "2026-11-25",
+    "unchanged_upstream_bytes": true
   }
 ]

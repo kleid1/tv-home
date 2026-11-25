@@ -2,7 +2,7 @@
 set -euo pipefail
 : "${TV_HOST:?set TV_HOST to the IP address of the TV, e.g. TV_HOST=192.168.1.50}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-PKG=com.kleid.cleanframe
+PKG=org.tvhome
 TV="$TV_HOST:5555"
 adb connect "$TV" >/dev/null 2>&1 || true
 if [ "$(adb -s "$TV" get-state 2>/dev/null)" != "device" ]; then

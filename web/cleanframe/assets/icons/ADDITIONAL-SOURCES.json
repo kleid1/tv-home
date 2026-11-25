@@ -16,5 +16,17 @@
     "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/tubi.svg",
     "licence": "CC0-1.0",
     "note": "Shape unchanged; white fill for launcher."
+  },
+  {
+    "icon": "ibplayer",
+    "source": "Drawn for tv-home",
+    "licence": "MIT",
+    "note": "Simplified mark after IBO Player's play shape and ring symbol; identifies the app only."
+  },
+  {
+    "icon": "klani",
+    "source": "Drawn for tv-home",
+    "licence": "MIT",
+    "note": "Simplified mark after Klan's emblem; identifies the app only."
   }
 ]

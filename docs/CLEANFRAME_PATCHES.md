@@ -15,9 +15,10 @@ to move to a newer CleanFrame.
 | `main.js` | `window.FrameHome()` | The remote's Home button closes any panel (called from `HomeActivity.onNewIntent`) |
 | `main.js` | Clock | 12 or 24 hours and the date beside the time, from the profile |
 | `main.js` | Wording | "Samsung" settings and the Back sheet point to the TV's settings; icons-only controls by default |
+| `main.js`, `assets/` | Google Sans font | Google Sans Flex (OFL), trimmed to Latin as woff2, as a font choice; the profile's `font` sets the default |
 | `style.css` | Added | Styles for the date beside the clock |
 | `index.html` | Viewport `width=1920`; private fonts link removed | The TV's 4K density otherwise doubles the page; the private fonts file is an empty placeholder |
-| `assets/icons/` | Added `digitalb.svg`, `livetv.svg` and their metrics | Marks for apps CleanFrame doesn't ship |
+| `assets/icons/` | Added `digitalb.svg`, `livetv.svg`, `ibplayer.svg` (IBO Player), `klani.svg` and their metrics | Marks for apps CleanFrame doesn't ship |
 | `assets/icons/` | Removed marks for apps not offered here (ABC iview, SBS, Apple Music, Apple TV, Spotify, Tubi), the Art Mode, home, apps and settings files, and the old Australian icon licence | Unused on Android TV |
 | `config.xml` | Removed | Tizen packaging |
 

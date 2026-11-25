@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.kleid.cleanframe'
+    namespace 'org.tvhome'
     compileSdk 34
 
     defaultConfig {
-        applicationId 'com.kleid.cleanframe'
+        applicationId 'org.tvhome'
         minSdk 26
         targetSdk 34
         versionCode 1

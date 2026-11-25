@@ -16,6 +16,7 @@ Before touching the TV, ask the owner all of this at once and write the answers 
    apps. Never guess; list what is installed and let them choose.
 5. **Headphones:** should the TV wait to be told before connecting them (`headphones.waitForMe`, default true)?
 6. **Clock:** 12 or 24 hours, date beside it or not.
+7. **Font:** CleanFrame's Manrope (default) or Google Sans, the font of Google's screensaver clock (`"font": "googlesans"`).
 
 ## 1. Connect
 
@@ -70,6 +71,9 @@ Contrast High, Adaptive Brightness off.
 | The TV reconnects paired headphones at every start | The guard (`Guard.java`) disconnects them unless connected from the Headphones panel |
 | Android 14's app freezer can kill a background app (seen with Stremio) | Normal; reopening the app fixes it |
 | TCL's own Settings key ignores adb key presses | Open screens with intents instead |
+| Google's launcher keeps taking Home even though this app holds the Home role | install.sh switches it off after the new Home is in place (`stock-home.txt`); wait ~15 s before a restart, or Android forgets the switch-off |
+| TCL's gear menu (Picture → Motion → Game Direct Sync, i.e. VRR) belongs to Google's launcher, and RemoteKeys takes the gear key | For console settings: `settings put secure enabled_accessibility_services ''` and `pm enable com.google.android.apps.tv.launcherx`, let the owner use the gear menu, then run install.sh again |
+| TCL menus hide switch states from `uiautomator` | Read menu names with it, but have the owner check on/off values on screen |
 | `adb connect` says *No route to host* while the TV answers ping and port 5555 | The Mac's adb server is stale: `adb kill-server`, then connect again |
 | Screenshots come out empty while Live TV plays | The tuner picture is protected; check the input with `dumpsys tv_input` instead |
 

@@ -24,5 +24,6 @@ json.dump({
     "liveTv": {"package": device["liveTv"]["package"], "source": person.get("liveTv", "antenna")},
     "clock": person.get("clock", {"hours": 24, "date": True}),
     "headphones": person.get("headphones", {"waitForMe": True}),
+    "font": person.get("font", "manrope"),
 }, sys.stdout, indent=2)
 print()

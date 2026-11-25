@@ -9,7 +9,8 @@
   /* Home apps as CleanFrame lists them: id (its mark in assets/icons), name, package. */
   window.TVProfile = {
     apps: (profile.apps || []).map(function (a) { return { id: a.id, name: a.name, mark: true, appId: a['package'] }; }),
-    clock: profile.clock || { hours: 24, date: true }
+    clock: profile.clock || { hours: 24, date: true },
+    font: profile.font || null
   };
   var BRANDS = {};
   window.TVProfile.apps.forEach(function (a) { BRANDS[a.appId] = a.id; });

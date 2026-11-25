@@ -1,0 +1,3 @@
+# Google TV's own Home. tools/install.sh switches it off only after this app answers Home (CleanYourTV's Home guard);
+# tools/restore.sh turns it back on.
+com.google.android.apps.tv.launcherx
