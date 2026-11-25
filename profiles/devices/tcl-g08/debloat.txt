@@ -1,0 +1,19 @@
+# TCL G08 (Google TV 14, UTT2.250416.001 AU02): switched off on every set. Tracking, ads, pushed promos,
+# the store demo and silent partner installs. No feature anyone uses depends on these.
+# Disabled with pm disable-user (never uninstalled); CleanYourTV's tools/restore.sh puts them back.
+
+com.tcl.logkit                                 # TCL log capture and upload
+com.google.android.feedback                    # Google feedback reporter
+com.android.tv.feedbackconsent                 # feedback consent prompt
+com.android.adservices.api                     # Android ad targeting
+com.android.ondevicepersonalization.services   # ad personalisation
+com.android.federatedcompute.services          # ad-model training
+com.tcl.usercenter                             # TCL account nags
+com.tcl.messagebox                             # TCL push messages and promos
+com.tcl.tv.tclhome_passive                     # pushes TCL content to Home at boot
+com.tcl.partnercustomizer                      # TCL rows on the Google TV home
+com.tcl.waterfall.overseas                     # TCL Channel recommendation browser
+com.tcl.exhibit                                # store demo mode
+com.tcl.esticker                               # retail sticker overlay
+android.autoinstalls.config.google.gtvpai      # installs partner apps without asking
+com.google.android.partnersetup                # partner attribution

@@ -1,0 +1,58 @@
+{
+  "device": "tcl-g08",
+  "apps": [
+    {
+      "id": "stremio",
+      "name": "Stremio",
+      "package": "com.stremio.one"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "package": "com.netflix.ninja"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "package": "com.google.android.youtube.tv"
+    },
+    {
+      "id": "livetv",
+      "name": "Live TV",
+      "package": "com.tcl.tv"
+    },
+    {
+      "id": "disneyplus",
+      "name": "Disney+",
+      "package": "com.disney.disneyplus"
+    },
+    {
+      "id": "primevideo",
+      "name": "Prime Video",
+      "package": "com.amazon.amazonvideo.livingroom"
+    }
+  ],
+  "buttons": {
+    "tcl": "livetv",
+    "purple": "stremio",
+    "netflix": "netflix",
+    "prime": "primevideo",
+    "youtube": "youtube",
+    "disney": "disneyplus",
+    "settings": "settings"
+  },
+  "liveTv": "antenna",
+  "clock": {
+    "hours": 24,
+    "date": true
+  },
+  "headphones": {
+    "waitForMe": true
+  },
+  "remove": [
+    "com.tcl.smartalexa",
+    "com.tcl.ocean.instructions",
+    "com.tcl.repairguide",
+    "com.tcl.guard"
+  ]
+}

@@ -1,0 +1,12 @@
+# Build output and local machine paths
+build/
+.gradle/
+app/build/
+local.properties
+# A TV's own backup holds that owner's settings: never commit it
+.backup-*/
+# Profiles of real people stay local unless they choose to share them
+profiles/people/*.json
+!profiles/people/example.json
+.cleanyourtv/
+profiles/people/*.remove.txt

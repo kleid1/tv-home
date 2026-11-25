@@ -1,0 +1,38 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.kleid.cleanframe'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.kleid.cleanframe'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '0.1'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            // Sideloaded over ADB. Signed with the debug key for now; a GitHub release needs a release key.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    // CleanFrame's web files live in web/ at the repo root and ship as assets/cleanframe.
+    sourceSets { main { assets.srcDirs = ['../web'] } }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // WebViewAssetLoader: serves CleanFrame from a private https origin instead of file://.
+    implementation 'androidx.webkit:webkit:1.10.0'
+}

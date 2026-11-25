@@ -1,0 +1,28 @@
+{
+  "id": "tcl-g08",
+  "name": "TCL Google TV, G08 board (C7K / C79K / C6K / P8K series)",
+  "match": {
+    "device": "G08",
+    "fingerprintContains": "G08:14/UTT2"
+  },
+  "keys": {
+    "tcl": 4020,
+    "purple": 4057,
+    "netflix": 4062,
+    "prime": 4099,
+    "youtube": 190,
+    "disney": 4141,
+    "settings": 83
+  },
+  "liveTv": {
+    "package": "com.tcl.tv",
+    "tuner": "auto"
+  },
+  "stockHome": "com.google.android.apps.tv.launcherx",
+  "debloat": [
+    "debloat.txt",
+    "debloat-home.txt"
+  ],
+  "screensaver": "com.google.android.apps.tv.dreamx/.service.Backdrop",
+  "antennaOnly": "debloat-antenna.txt"
+}

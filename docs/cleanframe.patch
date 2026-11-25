@@ -1,0 +1,1267 @@
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/AUSTRALIAN-TV-ICONS-LICENSE.txt b/assets/icons/AUSTRALIAN-TV-ICONS-LICENSE.txt
+--- a/assets/icons/AUSTRALIAN-TV-ICONS-LICENSE.txt	2026-11-25 18:24:52
++++ b/assets/icons/AUSTRALIAN-TV-ICONS-LICENSE.txt	1970-01-01 01:00:00
+@@ -1,674 +0,0 @@
+-                    GNU GENERAL PUBLIC LICENSE
+-                       Version 3, 29 June 2007
+-
+- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+- Everyone is permitted to copy and distribute verbatim copies
+- of this license document, but changing it is not allowed.
+-
+-                            Preamble
+-
+-  The GNU General Public License is a free, copyleft license for
+-software and other kinds of works.
+-
+-  The licenses for most software and other practical works are designed
+-to take away your freedom to share and change the works.  By contrast,
+-the GNU General Public License is intended to guarantee your freedom to
+-share and change all versions of a program--to make sure it remains free
+-software for all its users.  We, the Free Software Foundation, use the
+-GNU General Public License for most of our software; it applies also to
+-any other work released this way by its authors.  You can apply it to
+-your programs, too.
+-
+-  When we speak of free software, we are referring to freedom, not
+-price.  Our General Public Licenses are designed to make sure that you
+-have the freedom to distribute copies of free software (and charge for
+-them if you wish), that you receive source code or can get it if you
+-want it, that you can change the software or use pieces of it in new
+-free programs, and that you know you can do these things.
+-
+-  To protect your rights, we need to prevent others from denying you
+-these rights or asking you to surrender the rights.  Therefore, you have
+-certain responsibilities if you distribute copies of the software, or if
+-you modify it: responsibilities to respect the freedom of others.
+-
+-  For example, if you distribute copies of such a program, whether
+-gratis or for a fee, you must pass on to the recipients the same
+-freedoms that you received.  You must make sure that they, too, receive
+-or can get the source code.  And you must show them these terms so they
+-know their rights.
+-
+-  Developers that use the GNU GPL protect your rights with two steps:
+-(1) assert copyright on the software, and (2) offer you this License
+-giving you legal permission to copy, distribute and/or modify it.
+-
+-  For the developers' and authors' protection, the GPL clearly explains
+-that there is no warranty for this free software.  For both users' and
+-authors' sake, the GPL requires that modified versions be marked as
+-changed, so that their problems will not be attributed erroneously to
+-authors of previous versions.
+-
+-  Some devices are designed to deny users access to install or run
+-modified versions of the software inside them, although the manufacturer
+-can do so.  This is fundamentally incompatible with the aim of
+-protecting users' freedom to change the software.  The systematic
+-pattern of such abuse occurs in the area of products for individuals to
+-use, which is precisely where it is most unacceptable.  Therefore, we
+-have designed this version of the GPL to prohibit the practice for those
+-products.  If such problems arise substantially in other domains, we
+-stand ready to extend this provision to those domains in future versions
+-of the GPL, as needed to protect the freedom of users.
+-
+-  Finally, every program is threatened constantly by software patents.
+-States should not allow patents to restrict development and use of
+-software on general-purpose computers, but in those that do, we wish to
+-avoid the special danger that patents applied to a free program could
+-make it effectively proprietary.  To prevent this, the GPL assures that
+-patents cannot be used to render the program non-free.
+-
+-  The precise terms and conditions for copying, distribution and
+-modification follow.
+-
+-                       TERMS AND CONDITIONS
+-
+-  0. Definitions.
+-
+-  "This License" refers to version 3 of the GNU General Public License.
+-
+-  "Copyright" also means copyright-like laws that apply to other kinds of
+-works, such as semiconductor masks.
+-
+-  "The Program" refers to any copyrightable work licensed under this
+-License.  Each licensee is addressed as "you".  "Licensees" and
+-"recipients" may be individuals or organizations.
+-
+-  To "modify" a work means to copy from or adapt all or part of the work
+-in a fashion requiring copyright permission, other than the making of an
+-exact copy.  The resulting work is called a "modified version" of the
+-earlier work or a work "based on" the earlier work.
+-
+-  A "covered work" means either the unmodified Program or a work based
+-on the Program.
+-
+-  To "propagate" a work means to do anything with it that, without
+-permission, would make you directly or secondarily liable for
+-infringement under applicable copyright law, except executing it on a
+-computer or modifying a private copy.  Propagation includes copying,
+-distribution (with or without modification), making available to the
+-public, and in some countries other activities as well.
+-
+-  To "convey" a work means any kind of propagation that enables other
+-parties to make or receive copies.  Mere interaction with a user through
+-a computer network, with no transfer of a copy, is not conveying.
+-
+-  An interactive user interface displays "Appropriate Legal Notices"
+-to the extent that it includes a convenient and prominently visible
+-feature that (1) displays an appropriate copyright notice, and (2)
+-tells the user that there is no warranty for the work (except to the
+-extent that warranties are provided), that licensees may convey the
+-work under this License, and how to view a copy of this License.  If
+-the interface presents a list of user commands or options, such as a
+-menu, a prominent item in the list meets this criterion.
+-
+-  1. Source Code.
+-
+-  The "source code" for a work means the preferred form of the work
+-for making modifications to it.  "Object code" means any non-source
+-form of a work.
+-
+-  A "Standard Interface" means an interface that either is an official
+-standard defined by a recognized standards body, or, in the case of
+-interfaces specified for a particular programming language, one that
+-is widely used among developers working in that language.
+-
+-  The "System Libraries" of an executable work include anything, other
+-than the work as a whole, that (a) is included in the normal form of
+-packaging a Major Component, but which is not part of that Major
+-Component, and (b) serves only to enable use of the work with that
+-Major Component, or to implement a Standard Interface for which an
+-implementation is available to the public in source code form.  A
+-"Major Component", in this context, means a major essential component
+-(kernel, window system, and so on) of the specific operating system
+-(if any) on which the executable work runs, or a compiler used to
+-produce the work, or an object code interpreter used to run it.
+-
+-  The "Corresponding Source" for a work in object code form means all
+-the source code needed to generate, install, and (for an executable
+-work) run the object code and to modify the work, including scripts to
+-control those activities.  However, it does not include the work's
+-System Libraries, or general-purpose tools or generally available free
+-programs which are used unmodified in performing those activities but
+-which are not part of the work.  For example, Corresponding Source
+-includes interface definition files associated with source files for
+-the work, and the source code for shared libraries and dynamically
+-linked subprograms that the work is specifically designed to require,
+-such as by intimate data communication or control flow between those
+-subprograms and other parts of the work.
+-
+-  The Corresponding Source need not include anything that users
+-can regenerate automatically from other parts of the Corresponding
+-Source.
+-
+-  The Corresponding Source for a work in source code form is that
+-same work.
+-
+-  2. Basic Permissions.
+-
+-  All rights granted under this License are granted for the term of
+-copyright on the Program, and are irrevocable provided the stated
+-conditions are met.  This License explicitly affirms your unlimited
+-permission to run the unmodified Program.  The output from running a
+-covered work is covered by this License only if the output, given its
+-content, constitutes a covered work.  This License acknowledges your
+-rights of fair use or other equivalent, as provided by copyright law.
+-
+-  You may make, run and propagate covered works that you do not
+-convey, without conditions so long as your license otherwise remains
+-in force.  You may convey covered works to others for the sole purpose
+-of having them make modifications exclusively for you, or provide you
+-with facilities for running those works, provided that you comply with
+-the terms of this License in conveying all material for which you do
+-not control copyright.  Those thus making or running the covered works
+-for you must do so exclusively on your behalf, under your direction
+-and control, on terms that prohibit them from making any copies of
+-your copyrighted material outside their relationship with you.
+-
+-  Conveying under any other circumstances is permitted solely under
+-the conditions stated below.  Sublicensing is not allowed; section 10
+-makes it unnecessary.
+-
+-  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+-
+-  No covered work shall be deemed part of an effective technological
+-measure under any applicable law fulfilling obligations under article
+-11 of the WIPO copyright treaty adopted on 20 December 1996, or
+-similar laws prohibiting or restricting circumvention of such
+-measures.
+-
+-  When you convey a covered work, you waive any legal power to forbid
+-circumvention of technological measures to the extent such circumvention
+-is effected by exercising rights under this License with respect to
+-the covered work, and you disclaim any intention to limit operation or
+-modification of the work as a means of enforcing, against the work's
+-users, your or third parties' legal rights to forbid circumvention of
+-technological measures.
+-
+-  4. Conveying Verbatim Copies.
+-
+-  You may convey verbatim copies of the Program's source code as you
+-receive it, in any medium, provided that you conspicuously and
+-appropriately publish on each copy an appropriate copyright notice;
+-keep intact all notices stating that this License and any
+-non-permissive terms added in accord with section 7 apply to the code;
+-keep intact all notices of the absence of any warranty; and give all
+-recipients a copy of this License along with the Program.
+-
+-  You may charge any price or no price for each copy that you convey,
+-and you may offer support or warranty protection for a fee.
+-
+-  5. Conveying Modified Source Versions.
+-
+-  You may convey a work based on the Program, or the modifications to
+-produce it from the Program, in the form of source code under the
+-terms of section 4, provided that you also meet all of these conditions:
+-
+-    a) The work must carry prominent notices stating that you modified
+-    it, and giving a relevant date.
+-
+-    b) The work must carry prominent notices stating that it is
+-    released under this License and any conditions added under section
+-    7.  This requirement modifies the requirement in section 4 to
+-    "keep intact all notices".
+-
+-    c) You must license the entire work, as a whole, under this
+-    License to anyone who comes into possession of a copy.  This
+-    License will therefore apply, along with any applicable section 7
+-    additional terms, to the whole of the work, and all its parts,
+-    regardless of how they are packaged.  This License gives no
+-    permission to license the work in any other way, but it does not
+-    invalidate such permission if you have separately received it.
+-
+-    d) If the work has interactive user interfaces, each must display
+-    Appropriate Legal Notices; however, if the Program has interactive
+-    interfaces that do not display Appropriate Legal Notices, your
+-    work need not make them do so.
+-
+-  A compilation of a covered work with other separate and independent
+-works, which are not by their nature extensions of the covered work,
+-and which are not combined with it such as to form a larger program,
+-in or on a volume of a storage or distribution medium, is called an
+-"aggregate" if the compilation and its resulting copyright are not
+-used to limit the access or legal rights of the compilation's users
+-beyond what the individual works permit.  Inclusion of a covered work
+-in an aggregate does not cause this License to apply to the other
+-parts of the aggregate.
+-
+-  6. Conveying Non-Source Forms.
+-
+-  You may convey a covered work in object code form under the terms
+-of sections 4 and 5, provided that you also convey the
+-machine-readable Corresponding Source under the terms of this License,
+-in one of these ways:
+-
+-    a) Convey the object code in, or embodied in, a physical product
+-    (including a physical distribution medium), accompanied by the
+-    Corresponding Source fixed on a durable physical medium
+-    customarily used for software interchange.
+-
+-    b) Convey the object code in, or embodied in, a physical product
+-    (including a physical distribution medium), accompanied by a
+-    written offer, valid for at least three years and valid for as
+-    long as you offer spare parts or customer support for that product
+-    model, to give anyone who possesses the object code either (1) a
+-    copy of the Corresponding Source for all the software in the
+-    product that is covered by this License, on a durable physical
+-    medium customarily used for software interchange, for a price no
+-    more than your reasonable cost of physically performing this
+-    conveying of source, or (2) access to copy the
+-    Corresponding Source from a network server at no charge.
+-
+-    c) Convey individual copies of the object code with a copy of the
+-    written offer to provide the Corresponding Source.  This
+-    alternative is allowed only occasionally and noncommercially, and
+-    only if you received the object code with such an offer, in accord
+-    with subsection 6b.
+-
+-    d) Convey the object code by offering access from a designated
+-    place (gratis or for a charge), and offer equivalent access to the
+-    Corresponding Source in the same way through the same place at no
+-    further charge.  You need not require recipients to copy the
+-    Corresponding Source along with the object code.  If the place to
+-    copy the object code is a network server, the Corresponding Source
+-    may be on a different server (operated by you or a third party)
+-    that supports equivalent copying facilities, provided you maintain
+-    clear directions next to the object code saying where to find the
+-    Corresponding Source.  Regardless of what server hosts the
+-    Corresponding Source, you remain obligated to ensure that it is
+-    available for as long as needed to satisfy these requirements.
+-
+-    e) Convey the object code using peer-to-peer transmission, provided
+-    you inform other peers where the object code and Corresponding
+-    Source of the work are being offered to the general public at no
+-    charge under subsection 6d.
+-
+-  A separable portion of the object code, whose source code is excluded
+-from the Corresponding Source as a System Library, need not be
+-included in conveying the object code work.
+-
+-  A "User Product" is either (1) a "consumer product", which means any
+-tangible personal property which is normally used for personal, family,
+-or household purposes, or (2) anything designed or sold for incorporation
+-into a dwelling.  In determining whether a product is a consumer product,
+-doubtful cases shall be resolved in favor of coverage.  For a particular
+-product received by a particular user, "normally used" refers to a
+-typical or common use of that class of product, regardless of the status
+-of the particular user or of the way in which the particular user
+-actually uses, or expects or is expected to use, the product.  A product
+-is a consumer product regardless of whether the product has substantial
+-commercial, industrial or non-consumer uses, unless such uses represent
+-the only significant mode of use of the product.
+-
+-  "Installation Information" for a User Product means any methods,
+-procedures, authorization keys, or other information required to install
+-and execute modified versions of a covered work in that User Product from
+-a modified version of its Corresponding Source.  The information must
+-suffice to ensure that the continued functioning of the modified object
+-code is in no case prevented or interfered with solely because
+-modification has been made.
+-
+-  If you convey an object code work under this section in, or with, or
+-specifically for use in, a User Product, and the conveying occurs as
+-part of a transaction in which the right of possession and use of the
+-User Product is transferred to the recipient in perpetuity or for a
+-fixed term (regardless of how the transaction is characterized), the
+-Corresponding Source conveyed under this section must be accompanied
+-by the Installation Information.  But this requirement does not apply
+-if neither you nor any third party retains the ability to install
+-modified object code on the User Product (for example, the work has
+-been installed in ROM).
+-
+-  The requirement to provide Installation Information does not include a
+-requirement to continue to provide support service, warranty, or updates
+-for a work that has been modified or installed by the recipient, or for
+-the User Product in which it has been modified or installed.  Access to a
+-network may be denied when the modification itself materially and
+-adversely affects the operation of the network or violates the rules and
+-protocols for communication across the network.
+-
+-  Corresponding Source conveyed, and Installation Information provided,
+-in accord with this section must be in a format that is publicly
+-documented (and with an implementation available to the public in
+-source code form), and must require no special password or key for
+-unpacking, reading or copying.
+-
+-  7. Additional Terms.
+-
+-  "Additional permissions" are terms that supplement the terms of this
+-License by making exceptions from one or more of its conditions.
+-Additional permissions that are applicable to the entire Program shall
+-be treated as though they were included in this License, to the extent
+-that they are valid under applicable law.  If additional permissions
+-apply only to part of the Program, that part may be used separately
+-under those permissions, but the entire Program remains governed by
+-this License without regard to the additional permissions.
+-
+-  When you convey a copy of a covered work, you may at your option
+-remove any additional permissions from that copy, or from any part of
+-it.  (Additional permissions may be written to require their own
+-removal in certain cases when you modify the work.)  You may place
+-additional permissions on material, added by you to a covered work,
+-for which you have or can give appropriate copyright permission.
+-
+-  Notwithstanding any other provision of this License, for material you
+-add to a covered work, you may (if authorized by the copyright holders of
+-that material) supplement the terms of this License with terms:
+-
+-    a) Disclaiming warranty or limiting liability differently from the
+-    terms of sections 15 and 16 of this License; or
+-
+-    b) Requiring preservation of specified reasonable legal notices or
+-    author attributions in that material or in the Appropriate Legal
+-    Notices displayed by works containing it; or
+-
+-    c) Prohibiting misrepresentation of the origin of that material, or
+-    requiring that modified versions of such material be marked in
+-    reasonable ways as different from the original version; or
+-
+-    d) Limiting the use for publicity purposes of names of licensors or
+-    authors of the material; or
+-
+-    e) Declining to grant rights under trademark law for use of some
+-    trade names, trademarks, or service marks; or
+-
+-    f) Requiring indemnification of licensors and authors of that
+-    material by anyone who conveys the material (or modified versions of
+-    it) with contractual assumptions of liability to the recipient, for
+-    any liability that these contractual assumptions directly impose on
+-    those licensors and authors.
+-
+-  All other non-permissive additional terms are considered "further
+-restrictions" within the meaning of section 10.  If the Program as you
+-received it, or any part of it, contains a notice stating that it is
+-governed by this License along with a term that is a further
+-restriction, you may remove that term.  If a license document contains
+-a further restriction but permits relicensing or conveying under this
+-License, you may add to a covered work material governed by the terms
+-of that license document, provided that the further restriction does
+-not survive such relicensing or conveying.
+-
+-  If you add terms to a covered work in accord with this section, you
+-must place, in the relevant source files, a statement of the
+-additional terms that apply to those files, or a notice indicating
+-where to find the applicable terms.
+-
+-  Additional terms, permissive or non-permissive, may be stated in the
+-form of a separately written license, or stated as exceptions;
+-the above requirements apply either way.
+-
+-  8. Termination.
+-
+-  You may not propagate or modify a covered work except as expressly
+-provided under this License.  Any attempt otherwise to propagate or
+-modify it is void, and will automatically terminate your rights under
+-this License (including any patent licenses granted under the third
+-paragraph of section 11).
+-
+-  However, if you cease all violation of this License, then your
+-license from a particular copyright holder is reinstated (a)
+-provisionally, unless and until the copyright holder explicitly and
+-finally terminates your license, and (b) permanently, if the copyright
+-holder fails to notify you of the violation by some reasonable means
+-prior to 60 days after the cessation.
+-
+-  Moreover, your license from a particular copyright holder is
+-reinstated permanently if the copyright holder notifies you of the
+-violation by some reasonable means, this is the first time you have
+-received notice of violation of this License (for any work) from that
+-copyright holder, and you cure the violation prior to 30 days after
+-your receipt of the notice.
+-
+-  Termination of your rights under this section does not terminate the
+-licenses of parties who have received copies or rights from you under
+-this License.  If your rights have been terminated and not permanently
+-reinstated, you do not qualify to receive new licenses for the same
+-material under section 10.
+-
+-  9. Acceptance Not Required for Having Copies.
+-
+-  You are not required to accept this License in order to receive or
+-run a copy of the Program.  Ancillary propagation of a covered work
+-occurring solely as a consequence of using peer-to-peer transmission
+-to receive a copy likewise does not require acceptance.  However,
+-nothing other than this License grants you permission to propagate or
+-modify any covered work.  These actions infringe copyright if you do
+-not accept this License.  Therefore, by modifying or propagating a
+-covered work, you indicate your acceptance of this License to do so.
+-
+-  10. Automatic Licensing of Downstream Recipients.
+-
+-  Each time you convey a covered work, the recipient automatically
+-receives a license from the original licensors, to run, modify and
+-propagate that work, subject to this License.  You are not responsible
+-for enforcing compliance by third parties with this License.
+-
+-  An "entity transaction" is a transaction transferring control of an
+-organization, or substantially all assets of one, or subdividing an
+-organization, or merging organizations.  If propagation of a covered
+-work results from an entity transaction, each party to that
+-transaction who receives a copy of the work also receives whatever
+-licenses to the work the party's predecessor in interest had or could
+-give under the previous paragraph, plus a right to possession of the
+-Corresponding Source of the work from the predecessor in interest, if
+-the predecessor has it or can get it with reasonable efforts.
+-
+-  You may not impose any further restrictions on the exercise of the
+-rights granted or affirmed under this License.  For example, you may
+-not impose a license fee, royalty, or other charge for exercise of
+-rights granted under this License, and you may not initiate litigation
+-(including a cross-claim or counterclaim in a lawsuit) alleging that
+-any patent claim is infringed by making, using, selling, offering for
+-sale, or importing the Program or any portion of it.
+-
+-  11. Patents.
+-
+-  A "contributor" is a copyright holder who authorizes use under this
+-License of the Program or a work on which the Program is based.  The
+-work thus licensed is called the contributor's "contributor version".
+-
+-  A contributor's "essential patent claims" are all patent claims
+-owned or controlled by the contributor, whether already acquired or
+-hereafter acquired, that would be infringed by some manner, permitted
+-by this License, of making, using, or selling its contributor version,
+-but do not include claims that would be infringed only as a
+-consequence of further modification of the contributor version.  For
+-purposes of this definition, "control" includes the right to grant
+-patent sublicenses in a manner consistent with the requirements of
+-this License.
+-
+-  Each contributor grants you a non-exclusive, worldwide, royalty-free
+-patent license under the contributor's essential patent claims, to
+-make, use, sell, offer for sale, import and otherwise run, modify and
+-propagate the contents of its contributor version.
+-
+-  In the following three paragraphs, a "patent license" is any express
+-agreement or commitment, however denominated, not to enforce a patent
+-(such as an express permission to practice a patent or covenant not to
+-sue for patent infringement).  To "grant" such a patent license to a
+-party means to make such an agreement or commitment not to enforce a
+-patent against the party.
+-
+-  If you convey a covered work, knowingly relying on a patent license,
+-and the Corresponding Source of the work is not available for anyone
+-to copy, free of charge and under the terms of this License, through a
+-publicly available network server or other readily accessible means,
+-then you must either (1) cause the Corresponding Source to be so
+-available, or (2) arrange to deprive yourself of the benefit of the
+-patent license for this particular work, or (3) arrange, in a manner
+-consistent with the requirements of this License, to extend the patent
+-license to downstream recipients.  "Knowingly relying" means you have
+-actual knowledge that, but for the patent license, your conveying the
+-covered work in a country, or your recipient's use of the covered work
+-in a country, would infringe one or more identifiable patents in that
+-country that you have reason to believe are valid.
+-
+-  If, pursuant to or in connection with a single transaction or
+-arrangement, you convey, or propagate by procuring conveyance of, a
+-covered work, and grant a patent license to some of the parties
+-receiving the covered work authorizing them to use, propagate, modify
+-or convey a specific copy of the covered work, then the patent license
+-you grant is automatically extended to all recipients of the covered
+-work and works based on it.
+-
+-  A patent license is "discriminatory" if it does not include within
+-the scope of its coverage, prohibits the exercise of, or is
+-conditioned on the non-exercise of one or more of the rights that are
+-specifically granted under this License.  You may not convey a covered
+-work if you are a party to an arrangement with a third party that is
+-in the business of distributing software, under which you make payment
+-to the third party based on the extent of your activity of conveying
+-the work, and under which the third party grants, to any of the
+-parties who would receive the covered work from you, a discriminatory
+-patent license (a) in connection with copies of the covered work
+-conveyed by you (or copies made from those copies), or (b) primarily
+-for and in connection with specific products or compilations that
+-contain the covered work, unless you entered into that arrangement,
+-or that patent license was granted, prior to 28 March 2007.
+-
+-  Nothing in this License shall be construed as excluding or limiting
+-any implied license or other defenses to infringement that may
+-otherwise be available to you under applicable patent law.
+-
+-  12. No Surrender of Others' Freedom.
+-
+-  If conditions are imposed on you (whether by court order, agreement or
+-otherwise) that contradict the conditions of this License, they do not
+-excuse you from the conditions of this License.  If you cannot convey a
+-covered work so as to satisfy simultaneously your obligations under this
+-License and any other pertinent obligations, then as a consequence you may
+-not convey it at all.  For example, if you agree to terms that obligate you
+-to collect a royalty for further conveying from those to whom you convey
+-the Program, the only way you could satisfy both those terms and this
+-License would be to refrain entirely from conveying the Program.
+-
+-  13. Use with the GNU Affero General Public License.
+-
+-  Notwithstanding any other provision of this License, you have
+-permission to link or combine any covered work with a work licensed
+-under version 3 of the GNU Affero General Public License into a single
+-combined work, and to convey the resulting work.  The terms of this
+-License will continue to apply to the part which is the covered work,
+-but the special requirements of the GNU Affero General Public License,
+-section 13, concerning interaction through a network will apply to the
+-combination as such.
+-
+-  14. Revised Versions of this License.
+-
+-  The Free Software Foundation may publish revised and/or new versions of
+-the GNU General Public License from time to time.  Such new versions will
+-be similar in spirit to the present version, but may differ in detail to
+-address new problems or concerns.
+-
+-  Each version is given a distinguishing version number.  If the
+-Program specifies that a certain numbered version of the GNU General
+-Public License "or any later version" applies to it, you have the
+-option of following the terms and conditions either of that numbered
+-version or of any later version published by the Free Software
+-Foundation.  If the Program does not specify a version number of the
+-GNU General Public License, you may choose any version ever published
+-by the Free Software Foundation.
+-
+-  If the Program specifies that a proxy can decide which future
+-versions of the GNU General Public License can be used, that proxy's
+-public statement of acceptance of a version permanently authorizes you
+-to choose that version for the Program.
+-
+-  Later license versions may give you additional or different
+-permissions.  However, no additional obligations are imposed on any
+-author or copyright holder as a result of your choosing to follow a
+-later version.
+-
+-  15. Disclaimer of Warranty.
+-
+-  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+-APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+-HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+-OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+-PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+-IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+-ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+-
+-  16. Limitation of Liability.
+-
+-  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+-WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+-THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+-GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+-USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+-DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+-PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+-EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+-SUCH DAMAGES.
+-
+-  17. Interpretation of Sections 15 and 16.
+-
+-  If the disclaimer of warranty and limitation of liability provided
+-above cannot be given local legal effect according to their terms,
+-reviewing courts shall apply local law that most closely approximates
+-an absolute waiver of all civil liability in connection with the
+-Program, unless a warranty or assumption of liability accompanies a
+-copy of the Program in return for a fee.
+-
+-                     END OF TERMS AND CONDITIONS
+-
+-            How to Apply These Terms to Your New Programs
+-
+-  If you develop a new program, and you want it to be of the greatest
+-possible use to the public, the best way to achieve this is to make it
+-free software which everyone can redistribute and change under these terms.
+-
+-  To do so, attach the following notices to the program.  It is safest
+-to attach them to the start of each source file to most effectively
+-state the exclusion of warranty; and each file should have at least
+-the "copyright" line and a pointer to where the full notice is found.
+-
+-    <one line to give the program's name and a brief idea of what it does.>
+-    Copyright (C) <year>  <name of author>
+-
+-    This program is free software: you can redistribute it and/or modify
+-    it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
+-    (at your option) any later version.
+-
+-    This program is distributed in the hope that it will be useful,
+-    but WITHOUT ANY WARRANTY; without even the implied warranty of
+-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-    GNU General Public License for more details.
+-
+-    You should have received a copy of the GNU General Public License
+-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-
+-Also add information on how to contact you by electronic and paper mail.
+-
+-  If the program does terminal interaction, make it output a short
+-notice like this when it starts in an interactive mode:
+-
+-    <program>  Copyright (C) <year>  <name of author>
+-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+-    This is free software, and you are welcome to redistribute it
+-    under certain conditions; type `show c' for details.
+-
+-The hypothetical commands `show w' and `show c' should show the appropriate
+-parts of the General Public License.  Of course, your program's commands
+-might be different; for a GUI interface, you would use an "about box".
+-
+-  You should also get your employer (if you work as a programmer) or school,
+-if any, to sign a "copyright disclaimer" for the program, if necessary.
+-For more information on this, and how to apply and follow the GNU GPL, see
+-<https://www.gnu.org/licenses/>.
+-
+-  The GNU General Public License does not permit incorporating your program
+-into proprietary programs.  If your program is a subroutine library, you
+-may consider it more useful to permit linking proprietary applications with
+-the library.  If this is what you want to do, use the GNU Lesser General
+-Public License instead of this License.  But first, please read
+-<https://www.gnu.org/licenses/why-not-lgpl.html>.
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/abciview.svg b/assets/icons/abciview.svg
+--- a/assets/icons/abciview.svg	2026-11-25 18:24:52
++++ b/assets/icons/abciview.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><path fill="#ffffff" d="M4.885 4.534c.757-.014 1.676.27 2.291 1.034.283.27.797 1.574.797 1.574l3.088 8.203c.398.986 1.594 1.06 1.946.074l.959-2.588 1.635 4.318c-.797 1.452-1.567 1.81-2.479 2.142-1.068.331-2.338.223-3.25-.345-.304-.196-1.102-.716-1.636-2.02l-3.25-9.088v8.277l1.217-3.5 1.561 4.365c-.237 1.006-.96 1.844-1.805 2.236-.918.433-2.02.284-2.858-.243-.831-.615-1.067-1.345-1.101-2.635l.014-8.953c.094-1.493 1.047-2.304 1.885-2.669.385-.135.547-.175.986-.182m14.23 14.932c-.757.014-1.676-.27-2.297-1.034-.277-.277-.791-1.581-.791-1.581l-3.095-8.202c-.398-.987-1.594-1.061-1.946-.075l-.959 2.588-1.635-4.311c.797-1.452 1.567-1.81 2.48-2.142 1.067-.331 2.337-.223 3.25.345.304.196 1.101.716 1.635 2.02l3.25 9.088V7.885l-1.216 3.5-1.548-4.371a3.35 3.35 0 0 1 1.798-2.237c.918-.432 2.02-.284 2.858.243.831.615 1.067 1.345 1.101 2.635l-.014 8.953c-.094 1.493-1.047 2.304-1.885 2.669-.385.142-.547.182-.986.189" /></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/applemusic.svg b/assets/icons/applemusic.svg
+--- a/assets/icons/applemusic.svg	2026-11-25 18:24:52
++++ b/assets/icons/applemusic.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="4.7 3.4 13.5 17" fill="#ffffff"><title>Apple Music</title><path d="M17.571 10.114v5.712c0 .417-.058.827-.244 1.206-.29.59-.76.962-1.388 1.14-.35.1-.706.157-1.07.173-.95.045-1.773-.6-1.943-1.536a1.88 1.88 0 011.038-2.022c.323-.16.67-.25 1.018-.324.378-.082.758-.153 1.134-.24.274-.063.457-.23.51-.516a.904.904 0 00.02-.193c0-1.815 0-3.63-.002-5.443a.725.725 0 00-.026-.185c-.04-.15-.15-.243-.304-.234-.16.01-.318.035-.475.066-.76.15-1.52.303-2.28.456l-2.325.47-1.374.278c-.016.003-.032.01-.048.013-.277.077-.377.203-.39.49-.002.042 0 .086 0 .13-.002 2.602 0 5.204-.003 7.805 0 .42-.047.836-.215 1.227-.278.64-.77 1.04-1.434 1.233-.35.1-.71.16-1.075.172-.96.036-1.755-.6-1.92-1.544-.14-.812.23-1.685 1.154-2.075.357-.15.73-.232 1.108-.31.287-.06.575-.116.86-.177.383-.083.583-.323.6-.714v-.15c0-2.96 0-5.922.002-8.882 0-.123.013-.25.042-.37.07-.285.273-.448.546-.518.255-.066.515-.112.774-.165.733-.15 1.466-.296 2.2-.444l2.27-.46c.67-.134 1.34-.27 2.01-.403.22-.043.442-.088.663-.106.31-.025.523.17.554.482.008.073.012.148.012.223.002 1.91.002 3.822 0 5.732z" /></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/appletv.svg b/assets/icons/appletv.svg
+--- a/assets/icons/appletv.svg	2026-11-25 18:24:52
++++ b/assets/icons/appletv.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff"><title>Apple TV</title><path d="M20.57 17.735h-1.815l-3.34-9.203h1.633l2.02 5.987c.075.231.273.9.586 2.012l.297-.997.33-1.006 2.094-6.004H24zm-5.344-.066a5.76 5.76 0 0 1-1.55.207c-1.23 0-1.84-.693-1.84-2.087V9.646h-1.063V8.532h1.121V7.081l1.476-.602v2.062h1.707v1.113H13.38v5.805c0 .446.074.75.214.932.14.182.396.264.75.264.207 0 .495-.041.883-.115zm-7.29-5.343c.017 1.764 1.55 2.358 1.567 2.366-.017.042-.248.842-.808 1.658-.487.71-.99 1.418-1.79 1.435-.783.016-1.03-.462-1.93-.462-.89 0-1.17.445-1.913.478-.758.025-1.344-.775-1.838-1.484-.998-1.451-1.765-4.098-.734-5.88.51-.89 1.426-1.451 2.416-1.46.75-.016 1.468.512 1.93.512.461 0 1.327-.627 2.234-.536.38.016 1.452.157 2.136 1.154-.058.033-1.278.743-1.27 2.219M6.468 7.988c.404-.495.685-1.18.61-1.864-.585.025-1.294.388-1.723.883-.38.437-.71 1.138-.619 1.806.652.05 1.328-.338 1.732-.825Z" /></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/apps.svg b/assets/icons/apps.svg
+--- a/assets/icons/apps.svg	2026-11-25 18:24:52
++++ b/assets/icons/apps.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/art.svg b/assets/icons/art.svg
+--- a/assets/icons/art.svg	2026-11-25 18:24:52
++++ b/assets/icons/art.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 6-6 4 4 3-3 5 5"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/digitalb.svg b/assets/icons/digitalb.svg
+--- a/assets/icons/digitalb.svg	1970-01-01 01:00:00
++++ b/assets/icons/digitalb.svg	2026-11-25 18:24:52
+@@ -0,0 +1 @@
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="99 88 272 272" fill="#ffffff"><title>DigitAlb</title><path d="M157,88 C150,90 146,100 145,115 L144,170 C144,185 150,193 162,202 L222,245 C232,253 234,262 228,272 C215,300 185,335 155,360 C200,340 240,312 260,285 C275,265 274,240 255,220 L170,100 C166,93 162,88 157,88 Z"/><path d="M262,135 C255,140 255,150 262,158 L292,185 C300,193 312,190 316,180 L326,150 C330,138 322,132 312,133 Z"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/home.svg b/assets/icons/home.svg
+--- a/assets/icons/home.svg	2026-11-25 18:24:52
++++ b/assets/icons/home.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7v11h-6v-7H9v7H3Z"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/livetv.svg b/assets/icons/livetv.svg
+--- a/assets/icons/livetv.svg	1970-01-01 01:00:00
++++ b/assets/icons/livetv.svg	2026-11-25 18:24:52
+@@ -0,0 +1 @@
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><title>Live TV</title><rect x="2.5" y="7" width="19" height="13" rx="2.6"/><path d="M8.5 3l3.5 3.5L15.5 3"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/metrics.js b/assets/icons/metrics.js
+--- a/assets/icons/metrics.js	2026-11-25 18:24:52
++++ b/assets/icons/metrics.js	2026-11-25 18:24:52
+@@ -1,2 +1,2 @@
+ /* Visible SVG ink measured at build time. */
+-window.FrameIconMetrics = {"abciview":{"n":240,"x":20,"y":45,"w":200,"h":150,"fill":0.7461133333333302},"applemusic":{"n":240,"x":25,"y":3,"w":182,"h":232,"fill":0.37128925840893395},"appletv":{"n":240,"x":0,"y":61,"w":240,"h":118,"fill":0.4205099977844237},"apps":{"n":240,"x":22,"y":22,"w":196,"h":196,"fill":0.4230014454761501},"art":{"n":240,"x":22,"y":22,"w":196,"h":196,"fill":0.4207371724199869},"disneyplus":{"n":240,"x":20,"y":28,"w":200,"h":184,"fill":0.26397303921568593},"hbomax":{"n":240,"x":0,"y":87,"w":240,"h":66,"fill":0.6134454842543072},"home":{"n":240,"x":22,"y":22,"w":196,"h":196,"fill":0.3167231178185559},"netflix":{"n":240,"x":54,"y":0,"w":132,"h":240,"fill":0.8215344622697586},"primevideo":{"n":240,"x":4,"y":91,"w":230,"h":55,"fill":0.2938401922033634},"sbs":{"n":240,"x":41,"y":0,"w":158,"h":240,"fill":0.4446042235459586},"settings":{"n":240,"x":12,"y":22,"w":216,"h":196,"fill":0.33975479080521065},"spotify":{"n":240,"x":0,"y":0,"w":240,"h":240,"fill":0.6418556644880171},"stremio":{"n":240,"x":0,"y":0,"w":240,"h":240,"fill":0.4901008306100203},"tubi":{"n":240,"x":0,"y":85,"w":240,"h":70,"fill":0.6370606909430396},"youtube":{"n":240,"x":0,"y":35,"w":240,"h":170,"fill":0.8811455209534805}};
++window.FrameIconMetrics = {"digitalb":{"n": 240, "x": 39, "y": 0, "w": 163, "h": 240, "fill": 0.30559515217129796},"livetv":{"n": 240, "x": 17, "y": 22, "w": 206, "h": 186, "fill": 0.289709720405544},"abciview":{"n":240,"x":20,"y":45,"w":200,"h":150,"fill":0.7461133333333302},"applemusic":{"n":240,"x":25,"y":3,"w":182,"h":232,"fill":0.37128925840893395},"appletv":{"n":240,"x":0,"y":61,"w":240,"h":118,"fill":0.4205099977844237},"apps":{"n":240,"x":22,"y":22,"w":196,"h":196,"fill":0.4230014454761501},"art":{"n":240,"x":22,"y":22,"w":196,"h":196,"fill":0.4207371724199869},"disneyplus":{"n":240,"x":20,"y":28,"w":200,"h":184,"fill":0.26397303921568593},"hbomax":{"n":240,"x":0,"y":87,"w":240,"h":66,"fill":0.6134454842543072},"home":{"n":240,"x":22,"y":22,"w":196,"h":196,"fill":0.3167231178185559},"netflix":{"n":240,"x":54,"y":0,"w":132,"h":240,"fill":0.8215344622697586},"primevideo":{"n":240,"x":4,"y":91,"w":230,"h":55,"fill":0.2938401922033634},"sbs":{"n":240,"x":41,"y":0,"w":158,"h":240,"fill":0.4446042235459586},"settings":{"n":240,"x":12,"y":22,"w":216,"h":196,"fill":0.33975479080521065},"spotify":{"n":240,"x":0,"y":0,"w":240,"h":240,"fill":0.6418556644880171},"stremio":{"n":240,"x":0,"y":0,"w":240,"h":240,"fill":0.4901008306100203},"tubi":{"n":240,"x":0,"y":85,"w":240,"h":70,"fill":0.6370606909430396},"youtube":{"n":240,"x":0,"y":35,"w":240,"h":170,"fill":0.8811455209534805}};
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/sbs.svg b/assets/icons/sbs.svg
+--- a/assets/icons/sbs.svg	2026-11-25 18:24:52
++++ b/assets/icons/sbs.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="1.99 6.98 4.82 7.32" fill="#ffffff"><path d="M6.802 6.986C6.802 6.986 5.683999999999999 7.958 4.7219999999999995 9.995C5.302 8.497 5.263999999999999 7.446999999999999 5.263999999999999 7.446999999999999C5.263999999999999 7.446999999999999 4.452999999999999 8.149 3.7469999999999994 9.629999999999999C4.156 8.544999999999998 4.129 7.7879999999999985 4.129 7.7879999999999985C4.129 7.7879999999999985 3.542 8.296 3.0239999999999996 9.366999999999999C3.3129999999999997 8.582999999999998 3.2929999999999997 8.036999999999999 3.2929999999999997 8.036999999999999C3.2929999999999997 8.036999999999999 2.7849999999999997 8.476999999999999 2.3789999999999996 9.405C1.9729999999999994 10.333 2.0 11.004 2.0 11.004C2.0 11.004 2.413 10.645999999999999 2.7880000000000003 9.899C2.358 11.008 2.386 11.784999999999998 2.386 11.784999999999998C2.386 11.784999999999998 2.959 11.286999999999999 3.474 10.246999999999998C2.873 11.770999999999997 2.914 12.845999999999998 2.914 12.845999999999998C2.914 12.845999999999998 3.709 12.156999999999998 4.408 10.713999999999999C3.5760000000000005 12.805 3.6270000000000002 14.284999999999998 3.6270000000000002 14.284999999999998C3.6270000000000002 14.284999999999998 4.8790000000000004 13.200999999999999 5.868 10.918999999999999C6.857 8.636999999999999 6.8020000000000005 6.985999999999999 6.8020000000000005 6.985999999999999"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/settings.svg b/assets/icons/settings.svg
+--- a/assets/icons/settings.svg	2026-11-25 18:24:52
++++ b/assets/icons/settings.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 3-.6 2.4-2 1.2L4 6l-2 3.5L3.8 11v2L2 14.5 4 18l2.4-.6 2 1.2L9 21h6l.6-2.4 2-1.2 2.4.6 2-3.5-1.8-1.5v-2L22 9.5 20 6l-2.4.6-2-1.2L15 3Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/spotify.svg b/assets/icons/spotify.svg
+--- a/assets/icons/spotify.svg	2026-11-25 18:24:52
++++ b/assets/icons/spotify.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/icons/tubi.svg b/assets/icons/tubi.svg
+--- a/assets/icons/tubi.svg	2026-11-25 18:24:52
++++ b/assets/icons/tubi.svg	1970-01-01 01:00:00
+@@ -1 +0,0 @@
+-<svg fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tubi</title><path d="M16.696 15.272v-.752c.4.548 1.107.917 1.934.917 1.475 0 2.28-.956 2.28-2.865 0-1.714-.893-2.858-2.235-2.858-.851 0-1.55.347-1.979.908v-2.06h-2.674v6.71zm1.57-2.614c0 .827-.337 1.275-.827 1.275-.486 0-.837-.452-.837-1.275s.342-1.28.837-1.28c.495 0 .828.452.828 1.28zM6.94 9.988v3.6c0 1.236.754 1.841 1.955 1.841.959 0 1.625-.396 2.028-1.064v.91h2.597V9.989h-2.675v3.14c0 .493-.346.693-.666.693-.321 0-.568-.192-.568-.655V9.989Zm14.39 0H24v5.276h-2.67ZM6.553 11.136c0 .781-.635 1.415-1.42 1.415-.783 0-1.419-.634-1.419-1.415 0-.782.636-1.415 1.42-1.415.784 0 1.42.633 1.42 1.415zM3.49 9.702v2.668c.005.653.327.924.976.924.225 0 .526-.053.672-.166v1.931c-.49.243-.869.378-1.535.378 0 0-.069 0-.18-.006l-.003.006c-1.614 0-2.51-1.035-2.482-2.686v-.47H0V9.99h.92V8.563h2.569Z"/></svg>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/assets/private-fonts.css b/assets/private-fonts.css
+--- a/assets/private-fonts.css	2026-11-25 18:24:52
++++ b/assets/private-fonts.css	1970-01-01 01:00:00
+@@ -1,2 +0,0 @@
+-/* Personal Pangram fonts are added by the local preview and package tools.
+-   No proprietary font binaries are stored in the public source tree. */
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/config.xml b/config.xml
+--- a/config.xml	2026-11-25 18:24:52
++++ b/config.xml	1970-01-01 01:00:00
+@@ -1,15 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://local.frame-home/app" version="0.7.0" viewmodes="maximized">
+-  <!-- Installation floor; device-specific evidence is recorded in docs/compatibility.md. -->
+-  <tizen:application id="nClrkHome1.FrameHome" package="nClrkHome1" required_version="5.0"/>
+-  <content src="index.html"/>
+-  <name>CleanFrame</name>
+-  <icon src="icon.png"/>
+-  <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+-  <tizen:profile name="tv-samsung"/>
+-  <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+-  <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+-  <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+-  <tizen:privilege name="http://tizen.org/privilege/tv.window"/>
+-  <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+-</widget>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/device.js b/device.js
+--- a/device.js	2026-11-25 18:24:52
++++ b/device.js	2026-11-25 18:24:52
+@@ -1,143 +1,63 @@
+-/* Public Tizen application APIs. No Mac server, network address or credentials. */
++/* CleanFrame's device layer for Android TV, in place of the Tizen one (tv-home).
++   Same window.FrameDevice functions as the original, each answered by the app's AndroidTV bridge, plus the TV's
++   profile (window.TVProfile) and the Headphones panel's calls. */
+ (function () {
+   'use strict';
+-  var IDS = {
+-    stremio: 'IkWsFHtOY9.Stremio', netflix: 'org.tizen.netflix-app',
+-    disneyplus: 'MCmYXNxgcu.DisneyPlus', youtube: '9Ur5IzDKqV.TizenYouTube',
+-    appletv: 'com.samsung.tv.aria-video', primevideo: 'org.tizen.primevideo',
+-    abciview: 'mWK87Xghap.ABCiview', sbs: 'OyE7OuxlUi.SBSOnDemand',
+-    applemusic: 'org.tizen.apple.apple-music'
++  var tv = window.AndroidTV;
++  var profile = {};
++  try { profile = tv ? JSON.parse(tv.profile()) : {}; } catch (e) { profile = {}; }
++  /* Home apps as CleanFrame lists them: id (its mark in assets/icons), name, package. */
++  window.TVProfile = {
++    apps: (profile.apps || []).map(function (a) { return { id: a.id, name: a.name, mark: true, appId: a['package'] }; }),
++    clock: profile.clock || { hours: 24, date: true }
+   };
+-  var STREAMING = ['as6cYRgkPy.Binge', '73iTZRTc34.Stan', '5b8c3eb16b.BeamCTVDev',
+-    'cj37Ni3qXM.HBONow', 'LBUAQX1exg.Hulu', 'gzcc4LRFBF.Peacock', 'rJyOSqC6Up.CBSAllAccess',
+-    'Rk72oKFsRS.OtterKidsProd', '70fRFUwYlD.OtterGAProd', 'PvWgqxV3Xa.YouTubeTV',
+-    'XtU8fQk2gN.ESPN', 'ZmmGjO6VKO.slingtv', 'VtuWAiZdHN.STARZPlay', 'ckfgqqzvt0.dplus',
+-    'kk8MbItQ0H.VUDU', 'Jz7aUrV2Q4.Twitch', 'OK2Rdkjmsi.IMDbTV', 'Ob3XhAVMu6.amcplus',
+-    'KaLitts8bq.tenplaySamsungTizen', 'eYuOiOLYQX.KayoSports', 'Ne2ZsPWdKl.9NOW',
+-    '3KA0pm7a7V.TubiTV', 'rJeHak5zRg.Spotify', 'icp4AvUPiA.7plus'];
+-  var CONSUMER_SYSTEM = ['org.tizen.browser', 'com.microsoft.copilot'];
+-  var EXTRA_BRANDS = {'rJeHak5zRg.Spotify': 'spotify', '5b8c3eb16b.BeamCTVDev': 'hbomax', 'cj37Ni3qXM.HBONow': 'hbomax', '3KA0pm7a7V.TubiTV': 'tubi'};
+-  var INTERNAL = ['adplatform.ADPlayer', 'WykOS4t4F0.cmsWebApp', '25emanual3.emanual',
+-    'd0m1lV1nt2.emanual', '2022ePop01.SmartTV',
+-    'ZODRT12q2l.WebAccountExtension', 'ByJlgt0XeD.CastSettingsApp', 'tv6pbVMQFF.PrivacyChoices'];
+-  var SELF = 'nClrkHome1.FrameHome';
+-  function api() { return window.tizen && window.tizen.application; }
+-  function selfId() {
+-    try { return api().getCurrentApplication().appInfo.id || SELF; }
+-    catch (err) { return SELF; }
+-  }
++  var BRANDS = {};
++  window.TVProfile.apps.forEach(function (a) { BRANDS[a.appId] = a.id; });
++
+   function unavailable(done) {
+     done({ message: 'Open CleanFrame on the TV to use this control.', detail: 'The web preview cannot control the TV.' });
+   }
+-  function failure(err) {
+-    return { message: 'The TV could not open this screen.', detail: err && (err.message || err.name) || 'Try again, or press the remote’s Home button to return to CleanFrame.' };
++  /* Bridge calls return "" on success or a short message. */
++  function call(name, args, done) {
++    if (!tv) { unavailable(done); return; }
++    var err = tv[name].apply(tv, args);
++    done(err ? { message: err } : null);
+   }
+-  function bounded(done, timeout) {
+-    var finished = false, timer = setTimeout(function () { finish({ message: 'The TV did not respond. Please try again.' }); }, timeout || 8000);
+-    function finish(err, value) { if (finished) return; finished = true; clearTimeout(timer); done(err, value); }
+-    return finish;
++  function list(name, done) {
++    if (!tv) { unavailable(done); return; }
++    try { done(null, JSON.parse(tv[name]())); } catch (e) { done({ message: 'The TV could not list these.' }); }
+   }
+-  var sourceCancel = null;
+-  function cancelSource() { if (sourceCancel) sourceCancel(); }
++  function apps(done) {
++    list('apps', function (err, entries) {
++      if (err) { done(err); return; }
++      done(null, entries.map(function (a) { return { appId: a.id, name: a.name, brand: BRANDS[a.id] || '', icon: a.icon || '' }; }));
++    });
++  }
+   function sources(done) {
+-    var sys = window.tizen && window.tizen.systeminfo, tvw = window.tizen && window.tizen.tvwindow;
+-    if (!sys || typeof sys.getPropertyValue !== 'function' || !tvw || typeof tvw.setSource !== 'function') { unavailable(done); return; }
+-    var finish = bounded(done);
+-    try {
+-      sys.getPropertyValue('VIDEOSOURCE', function (video) {
+-        var list = [], byPort = {}, active = null;
+-        try { if (typeof tvw.getSource === 'function') active = tvw.getSource(); } catch (err) { /* Status may be unavailable while discovery still works. */ }
+-        function record(src, connected) {
+-          if (!src || src.type !== 'HDMI' || typeof src.number !== 'number' || !isFinite(src.number) || src.number < 0 || Math.floor(src.number) !== src.number) return;
+-          var key = String(src.number), item = byPort[key];
+-          if (!item) {
+-            item = { number: src.number, name: 'HDMI ' + src.number, connected: false, active: !!(active && active.type === 'HDMI' && active.number === src.number), source: src };
+-            byPort[key] = item; list.push(item);
+-          }
+-          if (connected) { item.connected = true; item.source = src; }
+-        }
+-        if (video && Array.isArray(video.disconnected)) video.disconnected.forEach(function (src) { record(src, false); });
+-        if (video && Array.isArray(video.connected)) video.connected.forEach(function (src) { record(src, true); });
+-        list.sort(function (a, b) { return a.number - b.number; });
+-        finish(null, list);
+-      }, function (err) { finish(failure(err)); });
+-    } catch (err) { finish(failure(err)); }
++    list('sources', function (err, inputs) {
++      if (err) { done(err); return; }
++      done(null, inputs.map(function (s) { return { number: s.number, name: s.name, connected: !!s.connected, active: false, source: s.id }; }));
++    });
+   }
+   function setSource(port, done) {
+-    cancelSource();
+-    var tvw = window.tizen && window.tizen.tvwindow, app = api(), finished = false;
+-    if (typeof port !== 'number' || !isFinite(port) || port < 0 || Math.floor(port) !== port) { done({ message: 'This HDMI input is not available.' }); return; }
+-    if (!tvw || typeof tvw.setSource !== 'function' || !app || typeof app.launch !== 'function') { unavailable(done); return; }
+-    var timer = setTimeout(function () { finish({ message: 'The TV did not respond. Please try again.' }); }, 8000);
+-    function finish(err, value) {
+-      if (finished) return;
+-      finished = true; clearTimeout(timer);
+-      if (sourceCancel === cancel) sourceCancel = null;
+-      done(err, value);
+-    }
+-    function cancel() { finish({ message: 'Input change cancelled.', cancelled: true }); }
+-    sourceCancel = cancel;
+-    sources(function (err, list) {
+-      if (finished) return;
+-      if (err) { finish(err); return; }
++    sources(function (err, inputs) {
++      if (err) { done(err); return; }
+       var input = null;
+-      list.some(function (item) { if (item.number === port) { input = item; return true; } return false; });
+-      if (!input) { finish({ message: 'This HDMI input is no longer available.' }); return; }
+-      try {
+-        tvw.setSource(input.source, function (selected) {
+-          if (finished) return;
+-          if (selected && (selected.type !== 'HDMI' || selected.number !== port)) { finish({ message: 'The TV selected a different input. Please try again.' }); return; }
+-          try {
+-            app.launch('org.tizen.tv-viewer', function () { finish(null, input); }, function () {
+-              finish({ message: 'The input was selected, but the TV viewer could not open.', detail: 'Use the remote’s Source control to view the input.' });
+-            });
+-          } catch (error) { finish({ message: 'The input was selected, but the TV viewer could not open.' }); }
+-        }, function (error) { if (!finished) finish(failure(error)); });
+-      } catch (error) { finish(failure(error)); }
++      inputs.some(function (s) { if (s.number === port) { input = s; return true; } return false; });
++      if (!input) { done({ message: 'This HDMI input is no longer available.' }); return; }
++      call('openInput', [input.source], function (e) { done(e, e ? undefined : input); });
+     });
+   }
+-  function launchApp(id, done) {
+-    if (!api()) { unavailable(done); return; }
+-    var finish = bounded(done);
+-    try { api().launch(id, function () { finish(null); }, function (err) { finish(failure(err)); }); }
+-    catch (err) { finish(failure(err)); }
+-  }
+-  function launch(brand, done) {
+-    if (!IDS[brand]) { done({message: 'This app has no launch target.'}); return; }
+-    launchApp(IDS[brand], done);
+-  }
+-  function art(done) {
+-    if (!api()) { unavailable(done); return; }
+-    var finish = bounded(done);
+-    try {
+-      var data = [new tizen.ApplicationControlData('mode', ['fullscreen']), new tizen.ApplicationControlData('requester', ['mobile'])];
+-      var control = new tizen.ApplicationControl('http://tizen.org/appcontrol/operation/default', null, null, null, data);
+-      api().launchAppControl(control, 'org.tizen.art-app', function () { finish(null); }, function (err) { finish(failure(err)); });
+-    } catch (err) { finish(failure(err)); }
+-  }
+-  function home(done) { launchApp('com.samsung.tv.csfs', done); }
+-  function settings(done) { launchApp('com.samsung.tv.coba.setting', done); }
+-  function apps(done) {
+-    if (!api()) { unavailable(done); return; }
+-    // Large installed catalogues can take longer than a launch response.
+-    var finish = bounded(done, 20000);
+-    try {
+-      api().getAppsInfo(function (list) {
+-        var known = {}, seen = {}, result = [], self = selfId();
+-        Object.keys(IDS).forEach(function (brand) { known[IDS[brand]] = brand; });
+-        list.forEach(function (a) {
+-          var primary = !!known[a.id], stream = STREAMING.indexOf(a.id) >= 0;
+-          var consumer = /^[A-Za-z0-9]{10}\.[A-Za-z0-9_-]+$/.test(a.id) || CONSUMER_SYSTEM.indexOf(a.id) >= 0;
+-          if (a.id === self || INTERNAL.indexOf(a.id) >= 0 || seen[a.id] || !a.name || (!primary && !stream && (!a.show || !consumer))) return;
+-          if (!primary && /(?:service|worker|preview|promotion|plugin|launcher|test|sdk|^ep[ -]|factory|daemon)/i.test(a.name + ' ' + a.id)) return;
+-          if (/-dummy$/.test(a.id) || a.id === 'com.samsung.tv.cobalt-yt') return;
+-          seen[a.id] = true;
+-          result.push({ appId: a.id, name: a.name, brand: known[a.id] || EXTRA_BRANDS[a.id] || '', icon: a.iconPath || '', rank: primary ? Object.keys(IDS).indexOf(known[a.id]) : (stream ? 20 : 30) });
+-        });
+-        result.sort(function (a, b) { return a.rank - b.rank || a.name.toLowerCase().localeCompare(b.name.toLowerCase()); });
+-        finish(null, result);
+-      }, function (err) { finish(failure(err)); });
+-    } catch (err) { finish(failure(err)); }
+-  }
+-  window.FrameDevice = { launch: launch, launchApp: launchApp, art: art, home: home, settings: settings, apps: apps, sources: sources, setSource: setSource, cancelSource: cancelSource };
++  window.FrameDevice = {
++    launchApp: function (id, done) { call('launch', [id], done); },
++    apps: apps, sources: sources, setSource: setSource, cancelSource: function () {},
++    settings: function (done) { call('settings', [], done); },
++    network: function (done) { call('network', [], done); },
++    headphones: function (done) { list('headphones', done); },
++    connectHeadphones: function (address, connect, done) { call('connectHeadphones', [address, connect], done); },
++    forgetHeadphones: function (address, done) { call('forgetHeadphones', [address], done); },
++    pairHeadphones: function (done) { call('pairHeadphones', [], done); },
++    waitForMe: function () { return tv ? tv.waitForMe() : true; },
++    setWaitForMe: function (on) { if (tv) tv.setWaitForMe(on); }
++  };
+ }());
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/index.html b/index.html
+--- a/index.html	2026-11-25 18:24:52
++++ b/index.html	2026-11-25 18:24:52
+@@ -2,11 +2,10 @@
+ <html lang="en-AU">
+ <head>
+ <meta charset="utf-8">
+-<meta name="viewport" content="width=device-width, initial-scale=1">
++<meta name="viewport" content="width=1920">
+ <title>CleanFrame</title>
+ <link rel="stylesheet" href="assets/fonts.css">
+ <link rel="stylesheet" href="assets/typefaces.css">
+-<link rel="stylesheet" href="assets/private-fonts.css">
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/main.js b/main.js
+--- a/main.js	2026-11-25 18:24:52
++++ b/main.js	2026-11-25 18:24:52
+@@ -13,17 +13,12 @@
+   var KEYS = { 37: 'left', 38: 'up', 39: 'right', 40: 'down', 13: 'ok', 27: 'back', 8: 'back', 10009: 'back', 461: 'back' };
+   var FULL = 'Home holds nine apps. Remove one first.', LAST = 'Home needs one app';
+ 
+-  var PRIMARY_APPS = [
+-    { id: 'stremio', name: 'Stremio', mark: true, appId: 'IkWsFHtOY9.Stremio' },
+-    { id: 'netflix', name: 'Netflix', mark: true, appId: 'org.tizen.netflix-app' },
+-    { id: 'disneyplus', name: 'Disney+', mark: true, appId: 'MCmYXNxgcu.DisneyPlus' },
+-    { id: 'youtube', name: 'YouTube', mark: true, appId: '9Ur5IzDKqV.TizenYouTube' },
+-    { id: 'appletv', name: 'Apple TV', mark: true, appId: 'com.samsung.tv.aria-video' },
+-    { id: 'primevideo', name: 'Prime Video', mark: true, appId: 'org.tizen.primevideo' },
+-    { id: 'abciview', name: 'ABC iview', mark: true, appId: 'mWK87Xghap.ABCiview' },
+-    { id: 'sbs', name: 'SBS On Demand', mark: true, appId: 'OyE7OuxlUi.SBSOnDemand' },
+-    { id: 'applemusic', name: 'Apple Music', mark: true, appId: 'org.tizen.apple.apple-music' }
++  var PRIMARY_APPS = window.TVProfile && window.TVProfile.apps.length ? window.TVProfile.apps : [
++    { id: 'stremio', name: 'Stremio', mark: true, appId: 'com.stremio.one' },
++    { id: 'netflix', name: 'Netflix', mark: true, appId: 'com.netflix.ninja' },
++    { id: 'youtube', name: 'YouTube', mark: true, appId: 'com.google.android.youtube.tv' }
+   ];
++  var CLOCK = window.TVProfile ? window.TVProfile.clock : { hours: 24, date: true };
+   var PRIMARY = PRIMARY_APPS.map(function (a) { return a.id; }), APPS = PRIMARY_APPS.slice(), ALPHA = [];
+   var WALLS = window.CleanFrameWallpapers || [{ id: 'misty', name: 'Misty coast', tone: 'light', ut: { tr: 'mist', br: 'mist' }, frostVeil: .20 }];
+   var ADAPTIVE_INK = window.CleanFrameAdaptiveInk || {};
+@@ -47,12 +42,14 @@
+   var LOOK_VALUES = { bg: ['dark', 'light', 'photo'], layout: ['list', 'dock'], apps: ['icons', 'both', 'text'], font: Object.keys(FONTS).filter(function (id) { return id === 'manrope' || PRIVATE_FONTS.indexOf(id) >= 0; }), controls: ['icons', 'both', 'text'], focus: ['type', 'glass'], material: ['soft', 'frost', 'tint'] };
+   var LOOK_NAMES = { bg: 'Background', layout: 'Layout', apps: 'Apps', font: 'Font', controls: 'Home controls', focus: 'Focus', material: 'Material' };
+   var VALUE_NAMES = { dark: 'Dark', light: 'Light', photo: 'Photo', list: 'List', dock: 'Dock', type: 'Type', glass: 'Glass', soft: 'Soft', frost: 'Frost', tint: 'Clear tint', icons: 'Icons', both: 'Icons and text', text: 'Text' };
+-  var UTIL = { art: ['Art Mode', 'art'], apps: ['All apps', 'apps'], arrange: ['Arrange', 'arrange'], settings: ['Settings', 'settings'] };
++  var UTIL = { inputs: ['Inputs', 'inputs'], headphones: ['Headphones', 'headphones'], network: ['Network', 'network'], apps: ['All apps', 'apps'], arrange: ['Arrange', 'arrange'], settings: ['Settings', 'settings'] };
+   var MSG = {
+-    leave: { title: 'Leave Home?', line: 'Open Samsung Home?', note: '', actions: [['stay', 'Stay'], ['samsung', 'Samsung Home']] }
++    leave: { title: 'Leave Home?', line: 'Open the TV settings?', note: '', actions: [['stay', 'Stay'], ['samsung', 'TV settings']] }
+   };
+   var SVG = {
+-    art: '<rect x="3.5" y="4.5" width="17" height="15" rx="2"/><circle cx="9" cy="9.8" r="1.5"/><path d="m4.5 17.5 4.5-4.5 3 3 2.5-2.5 5 5"/>',
++    inputs: '<rect x="3" y="6" width="18" height="12" rx="2"/><path d="M8 10.5h8M8 13.5h5"/>',
++    headphones: '<path d="M4.5 15v-2.5a7.5 7.5 0 0 1 15 0V15"/><rect x="3.5" y="14" width="4" height="6" rx="1.5"/><rect x="16.5" y="14" width="4" height="6" rx="1.5"/>',
++    network: '<path d="M3 9.5a13 13 0 0 1 18 0M6 13a8 8 0 0 1 12 0M9 16.5a3.5 3.5 0 0 1 6 0"/><circle cx="12" cy="19.5" r=".6"/>',
+     apps: '<rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/>',
+     arrange: '<path d="M4 8.5h14M15 5.5l3 3-3 3M20 15.5H6M9 12.5l-3 3 3 3"/>',
+     settings: '<path d="m9 3-.6 2.4-2 1.2L4 6l-2 3.5L3.8 11v2L2 14.5 4 18l2.4-.6 2 1.2L9 21h6l.6-2.4 2-1.2 2.4.6 2-3.5-1.8-1.5v-2L22 9.5 20 6l-2.4.6-2-1.2L15 3Z"/><circle cx="12" cy="12" r="3.2"/>',
+@@ -342,7 +339,7 @@
+     (Array.isArray(s.recent) ? s.recent : []).forEach(function (id) { if (safeId(id) && app(id) && h.indexOf(id) < 0 && recent.indexOf(id) < 0 && recent.length < 5) recent.push(id); });
+     return {
+       bg: pick(modern.bg, LOOK_VALUES.bg, legacyList ? 'dark' : 'photo'), layout: pick(modern.layout, LOOK_VALUES.layout, legacyList ? 'list' : 'dock'),
+-      apps: pick(modern.apps, LOOK_VALUES.apps, legacyList ? 'text' : 'both'), controls: pick(modern.controls, LOOK_VALUES.controls, 'both'),
++      apps: pick(modern.apps, LOOK_VALUES.apps, legacyList ? 'text' : 'both'), controls: pick(modern.controls, LOOK_VALUES.controls, 'icons'),
+       focus: pick(modern.focus, LOOK_VALUES.focus, legacyList ? 'type' : 'glass'), material: pick(modern.material, LOOK_VALUES.material, 'soft'),
+       font: pick(modern.font, LOOK_VALUES.font, 'manrope'), wall: wall(modern.wall || s.wallpaper) ? modern.wall || s.wallpaper : WALLS[0].id,
+       home: h, recent: recent, lastApp: h.indexOf(s.lastApp) >= 0 ? s.lastApp : h[0],
+@@ -491,14 +488,16 @@
+   }
+ 
+   /* ---------- Navigation targets ---------- */
+-  function utils() { return ['art', 'apps', 'settings']; }
++  function utils() { return ['inputs', 'headphones', 'network', 'apps', 'settings']; }
+   /* prev/next run along the apps; out goes to the controls, inn comes back (or to a per-app action). */
+   function axes() {
+     var v = S.c.layout === 'list';
+     return { prev: v ? 'up' : 'left', next: v ? 'down' : 'right', out: v ? 'right' : 'up', inn: v ? 'left' : 'down' };
+   }
+   function utilAction(u) {
+-    if (u === 'art') perform('Art Mode', FrameDevice.art);
++    if (u === 'inputs') openInputs();
++    else if (u === 'headphones') openHeadphones();
++    else if (u === 'network') perform('Network', FrameDevice.network);
+     else if (u === 'apps') openApps();
+     else openSettings();
+   }
+@@ -506,7 +505,7 @@
+   function openSettings() { push({ id: 'settings', f: { id: S.settingsFocus } }); }
+   function openAppearance(group) {
+     var axis = { background: 'bg', layout: 'layout', typography: 'font', focus: 'focus' }[group];
+-    var action = S.detailFocus[group] || (axis ? 'choice.' + axis + '.' + S.c[axis] : group === 'rotation' ? 'rotation.' + S.c.mode : 'samsung.home');
++    var action = S.detailFocus[group] || (axis ? 'choice.' + axis + '.' + S.c[axis] : group === 'rotation' ? 'rotation.' + S.c.mode : 'samsung.settings');
+     push({ id: 'appearance', group: group, f: { action: action } });
+   }
+   function openMessage(key) { push({ id: 'message', msg: key, f: { b: 0 } }); }
+@@ -821,7 +820,7 @@
+       { id: 'typography', label: 'Typography', value: FONTS[S.c.font].name },
+       { id: 'focus', label: 'Focus', value: VALUE_NAMES[S.c.focus] + (materialApplies() ? ', ' + VALUE_NAMES[S.c.material] : '') },
+       { id: 'editor', label: 'Apps on Home', value: n + (n === 1 ? ' app' : ' apps') },
+-      { id: 'samsung', label: 'Samsung', value: 'Home and TV settings' }];
++      { id: 'samsung', label: 'TV', value: 'TV settings and inputs' }];
+   }
+   function settingsIds() { return settingsRows().map(function (r) { return r.id; }); }
+   V.settings = {
+@@ -841,7 +840,7 @@
+     if (id === 'editor') openEditor('settings');
+     else openAppearance(id);
+   }
+-  var DETAIL_NAMES = { background: 'Background', layout: 'Layout', typography: 'Typography', focus: 'Focus', rotation: 'Rotation', samsung: 'Samsung', inputs: 'Inputs' };
++  var DETAIL_NAMES = { background: 'Background', layout: 'Layout', typography: 'Typography', focus: 'Focus', rotation: 'Rotation', samsung: 'TV', inputs: 'Inputs', headphones: 'Headphones' };
+   function choice(axis, value, disabled) {
+     return { action: axis === 'mode' ? 'rotation.' + value : 'choice.' + axis + '.' + value, axis: axis, value: value, disabled: !!disabled,
+       label: axis === 'font' ? FONTS[value].name : axis === 'mode' ? MODES.filter(function (m) { return m.id === value; })[0].name : value === 'both' ? 'Both' : VALUE_NAMES[value] };
+@@ -853,6 +852,20 @@
+       return { action: 'input.' + input.number, label: input.name, description: input.active ? 'Active' : input.connected ? 'Connected' : 'Disconnected — may be asleep' };
+     }) : [{ action: 'inputs.retry', label: t.loading ? 'Loading inputs…' : 'Try again', disabled: t.loading }],
+       reason: t.inputError || (!t.loading && !t.inputs.length ? 'No HDMI inputs were reported by this TV.' : '') }];
++    if (t.group === 'headphones') {
++      var waiting = FrameDevice.waitForMe(), devices = [];
++      t.headphones.forEach(function (d, i) {
++        devices.push({ action: 'hp.toggle.' + i, label: d.name,
++          description: t.pending[d.address] ? 'Working…' : d.connected ? 'Connected. OK disconnects them.' : 'Not connected. OK connects them.' });
++        devices.push({ action: 'hp.forget.' + i, label: 'Forget ' + d.name, description: 'Unpairs them from the TV' });
++      });
++      return [
++        { id: 'wait', title: '', items: [{ action: 'hp.wait', label: 'Wait for me to connect', description: waiting
++          ? 'On. The TV won’t take your headphones by itself.' : 'Off. The TV reconnects headphones when it starts.' }] },
++        { id: 'hp', title: 'Paired headphones', items: devices.concat([{ action: 'hp.pair', label: 'Pair headphones', description: 'Opens the TV’s Bluetooth settings' }]),
++          reason: t.loading ? 'Loading…' : !t.headphones.length ? 'No headphones are paired with this TV.' : '' }
++      ];
++    }
+     if (t.group === 'background') return [
+       { id: 'bg', title: 'Background type', items: options('bg', ['photo', 'light', 'dark']) },
+       { id: 'wall', title: 'Wallpaper', items: [{ action: 'background.wallpaper', label: wall(S.c.wall).name, thumbnail: true, disabled: flat }] },
+@@ -872,13 +885,12 @@
+     if (t.group === 'rotation') return [{ id: 'mode', title: '', items: options('mode', MODES.map(function (m) { return m.id; }), flat),
+       reason: flat ? 'Choose Photo in Background to use rotation.' : 'Timed changes pause while Settings or another panel is open.' }];
+     return [{ id: 'samsung', title: '', items: [
+-      { action: 'samsung.home', label: 'Samsung Home', description: 'Open Samsung’s Home screen' },
+       { action: 'samsung.settings', label: 'TV settings', description: 'Picture, sound and network settings' },
+       { action: 'samsung.inputs', label: 'Inputs', description: 'Choose an HDMI input' }
+     ] }];
+   }
+   function detailRows(t) {
+-    var rows = [[{ action: 'settings.back', label: t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'Samsung' : 'Settings' }]];
++    var rows = [[{ action: 'settings.back', label: t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'TV' : t.group === 'headphones' ? 'Home' : 'Settings' }]];
+     detailSections(t).forEach(function (section) {
+       var enabled = section.items.filter(function (item) { return !item.disabled; });
+       if (section.horizontal && enabled.length) rows.push(enabled);
+@@ -913,6 +925,22 @@
+       t.loading = false; t.inputs = list || []; t.inputError = err ? err.message : null; after();
+     });
+   }
++  function loadHeadphones(t) {
++    t.loading = true;
++    FrameDevice.headphones(function (err, list) {
++      if (top() !== t) return;
++      t.loading = false; t.headphones = list || []; after();
++    });
++  }
++  function openHeadphones() {
++    openAppearance('headphones'); var t = top(); t.headphones = []; t.pending = {}; loadHeadphones(t);
++  }
++  /* Bluetooth changes land a moment after the request: look again shortly after, and once more. */
++  function headphonesChanged(t, address) {
++    if (address) t.pending[address] = true;
++    after();
++    [2500, 6000].forEach(function (ms) { setTimeout(function () { if (top() === t) { if (address) delete t.pending[address]; loadHeadphones(t); } }, ms); });
++  }
+   function openInputs() {
+     openAppearance('inputs'); var t = top(); t.inputs = []; loadInputs(t);
+   }
+@@ -929,10 +957,18 @@
+     else if (item.axis) { patch[item.axis] = item.value; setLook(patch, { row: item.axis }); }
+     else if (item.action === 'background.wallpaper') openWallpaper();
+     else if (item.action === 'background.rotation') openAppearance('rotation');
+-    else if (item.action === 'samsung.home') perform('Samsung Home', FrameDevice.home);
+     else if (item.action === 'samsung.settings') perform('TV settings', FrameDevice.settings);
+     else if (item.action === 'samsung.inputs') openInputs();
+     else if (item.action === 'inputs.retry') loadInputs(t);
++    else if (item.action === 'hp.wait') { FrameDevice.setWaitForMe(!FrameDevice.waitForMe()); after(); }
++    else if (item.action === 'hp.pair') { t.refreshInputs = true; perform('Bluetooth settings', FrameDevice.pairHeadphones); }
++    else if (item.action.indexOf('hp.toggle.') === 0) {
++      var hp = t.headphones[Number(item.action.slice(10))];
++      if (hp && !t.pending[hp.address]) FrameDevice.connectHeadphones(hp.address, !hp.connected, function (err) { S.err = err; headphonesChanged(t, hp.address); });
++    } else if (item.action.indexOf('hp.forget.') === 0) {
++      var gone = t.headphones[Number(item.action.slice(10))];
++      if (gone) FrameDevice.forgetHeadphones(gone.address, function (err) { S.err = err; headphonesChanged(t); });
++    }
+     else if (item.action.indexOf('input.') === 0) perform(item.label, function (done) {
+       FrameDevice.setSource(Number(item.action.slice(6)), function (err) {
+         t.refreshInputs = true;
+@@ -946,7 +982,7 @@
+       var axis = { background: 'bg', layout: 'layout', typography: 'font', focus: 'focus', rotation: 'mode' }[t.group];
+       rows.forEach(function (items) { items.forEach(function (item) {
+         if (item.action === t.f.action) exists = true;
+-        if (item.axis === axis && item.value === S.c[axis]) applied = item;
++        if (axis && item.axis === axis && item.value === S.c[axis]) applied = item;
+       }); });
+       if (!exists) detailFocus(t, applied || (rows[1] || rows[0])[0], 0);
+       if (t.f.column === undefined) t.f.column = detailLocation(t).column;
+@@ -980,7 +1016,7 @@
+       if (k === 'left') t.f.b = Math.max(0, t.f.b - 1);
+       else if (k === 'right') t.f.b = Math.min(A.length - 1, t.f.b + 1);
+       else if (k === 'back') pop();
+-      else if (k === 'ok') { a = A[t.f.b][0]; pop(); if (a === 'samsung') perform('Samsung Home', FrameDevice.home); }
++      else if (k === 'ok') { a = A[t.f.b][0]; pop(); if (a === 'samsung') perform('TV settings', FrameDevice.settings); }
+     },
+     point: function (t, z, i) { if (z === 'act') { t.f.b = i; this.key(t, 'ok'); } }
+   };
+@@ -1041,7 +1077,7 @@
+   function render() {
+     var t = top(), sheet = !!V[t.id].sheet, shown = wall(S.shown ? S.shown.wall : S.c.wall), palette = ADAPTIVE_INK[shown.id];
+     var adaptive = applyAdaptiveInk(palette), tr = adaptive && palette.tr ? palette.tr.pol : shown.ut.tr, br = adaptive && palette.br ? palette.br.pol : shown.ut.br;
+-    stage.className = 'stage bg-' + S.c.bg + ' l-' + S.c.layout + ' v-' + S.variant + ' m-' + (materialApplies() ? S.c.material : 'none') + ' f-' + S.c.focus + ' a-' + S.c.apps + ' u-' + S.c.controls + ' g-' + S.geom + ' tone-' + shown.tone + ' tr-' + tr + ' br-' + br + wallClasses(shown) + inkRungClasses(palette, adaptive) + ' at-' + t.id + ' font-' + homeFont() + (homeFont() !== 'manrope' ? ' font-custom' : '') + (S.fontSwitch ? ' is-font-switch' : '') + (adaptive ? ' has-adaptive-ink adaptive-tl-' + palette.tl.pol : '') + (!adaptive && shown.clockInk ? ' has-clock-ink' : '') + (!adaptive && shown.dockClockInk ? ' has-dock-clock-ink' : '') + (registeredMaterial(shown.id) ? ' registered-material' : '') + (sheet ? ' is-sheet' : '') + (S.reflow ? ' is-reflow' : '');
++    stage.className = 'stage bg-' + S.c.bg + ' l-' + S.c.layout + ' v-' + S.variant + ' m-' + (materialApplies() ? S.c.material : 'none') + ' f-' + S.c.focus + ' a-' + S.c.apps + ' u-' + S.c.controls + ' g-' + S.geom + ' tone-' + shown.tone + ' tr-' + tr + ' br-' + br + wallClasses(shown) + inkRungClasses(palette, adaptive) + ' at-' + t.id + (t.group ? ' panel-' + t.group : '') + ' font-' + homeFont() + (homeFont() !== 'manrope' ? ' font-custom' : '') + (S.fontSwitch ? ' is-font-switch' : '') + (adaptive ? ' has-adaptive-ink adaptive-tl-' + palette.tl.pol : '') + (!adaptive && shown.clockInk ? ' has-clock-ink' : '') + (!adaptive && shown.dockClockInk ? ' has-dock-clock-ink' : '') + (registeredMaterial(shown.id) ? ' registered-material' : '') + (sheet ? ' is-sheet' : '') + (S.reflow ? ' is-reflow' : '');
+     if (!adaptive && shown.clockInk) stage.style.setProperty('--clock-ink', shown.clockInk);
+     else stage.style.removeProperty('--clock-ink');
+     if (!adaptive && shown.dockClockInk) stage.style.setProperty('--dock-clock-ink', shown.dockClockInk);
+@@ -1079,8 +1115,9 @@
+   }
+ 
+   function clockText() {
+-    var d = new Date(), h = d.getHours() % 12 || 12, m = d.getMinutes();
+-    return h + ':' + (m < 10 ? '0' : '') + m;
++    var d = new Date(), h = d.getHours(), m = d.getMinutes();
++    if (CLOCK.hours === 12) return (h % 12 || 12) + ':' + (m < 10 ? '0' : '') + m;
++    return (h < 10 ? '0' : '') + h + ':' + (m < 10 ? '0' : '') + m;
+   }
+   function clockHtml() {
+     var text = clockText(), metrics = fontMetrics[homeFont()];
+@@ -1088,7 +1125,9 @@
+     return text.replace(/[0-9]/g, function (digit) { return '<span class="clock-digit">' + digit + '</span>'; });
+   }
+   function renderCaption(t, hs) {
+-    var html = '<span class="clock">' + clockHtml() + '</span>';
++    var d = new Date(), html = '<span class="clock-row"><span class="clock">' + clockHtml() + '</span>'
++      + (CLOCK.date ? '<span class="clock-date">' + d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' }) + '</span>' : '')
++      + '</span>';
+     if (S.c.apps !== 'icons' && hs.items[hs.i] && (S.c.layout === 'list' ? photoLabel(hs.items[hs.i].id, false).size < 88 || photoLabel(hs.items[hs.i].id, false).ellipsis : hs.zone === 'apps' && reducedDockLabel(hs.items[hs.i].id))) html += '<span class="cap-line full-name">' + esc(app(hs.items[hs.i].id).name) + '</span>';
+     setHTML(caption, html);
+   }
+@@ -1418,7 +1457,7 @@
+         + ' data-z="detail" data-i="0" data-id="' + item.action + '" data-action="' + item.action + '">' + inner
+         + (item.axis ? '<span class="setting-tick" aria-hidden="true">' + (applied ? icon('check') : '') + '</span>' : '') + '</button>';
+     }
+-    setHTML(appearanceBack, command({ action: 'settings.back', label: t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'Samsung' : 'Settings' }, icon('left') + '<span>' + (t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'Samsung' : 'Settings') + '</span>', 'setting-back'));
++    setHTML(appearanceBack, command({ action: 'settings.back', label: t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'TV' : t.group === 'headphones' ? 'Home' : 'Settings' }, icon('left') + '<span>' + (t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'TV' : t.group === 'headphones' ? 'Home' : 'Settings') + '</span>', 'setting-back'));
+     setHTML(appearanceRows, detailSections(t).map(function (section) {
+       return '<section class="setting-section' + (section.horizontal ? ' is-horizontal' : '') + ' section-' + section.id + '">'
+         + (section.title ? '<h3 class="setting-label" id="setting-' + section.id + '">' + section.title + '</h3>' : '')
+@@ -1441,7 +1480,7 @@
+         + command({ action: 'settings.retry', label: 'Try again' }, '<span>Try again</span>', 'setting-retry');
+     }
+     setHTML(appearanceStatus, status);
+-    hint = selected.disabled ? '' : selected.action === 'settings.back' ? 'Return to ' + (t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'Samsung' : 'Settings') : selected.action === 'settings.retry' ? 'Retry this change' : selected.axis ? 'Apply selected setting' : selected.action === 'background.wallpaper' ? 'Choose a wallpaper' : selected.action === 'background.rotation' ? 'Choose a rotation interval' : 'Open on the TV';
++    hint = selected.disabled ? '' : selected.action === 'settings.back' ? 'Return to ' + (t.group === 'rotation' ? 'Background' : t.group === 'inputs' ? 'TV' : t.group === 'headphones' ? 'Home' : 'Settings') : selected.action === 'settings.retry' ? 'Retry this change' : selected.axis ? 'Apply selected setting' : selected.action === 'background.wallpaper' ? 'Choose a wallpaper' : selected.action === 'background.rotation' ? 'Choose a rotation interval' : 'Open on the TV';
+     setHTML(appearanceDesc, hint ? '<span class="remote-key">OK</span><span>' + esc(hint) + '</span>' : '');
+   }
+   function renderWallpaper(t) {
+@@ -1799,9 +1838,10 @@
+   function after() {
+     norm(); var t = top();
+     if (t.group === 'inputs' && t.refreshInputs && !t.loading && !document.hidden) { t.refreshInputs = false; loadInputs(t); }
++    if (t.group === 'headphones' && t.refreshInputs && !t.loading && !document.hidden) { t.refreshInputs = false; loadHeadphones(t); }
+     render(); syncRotation();
+   }
+-  function refreshInputsOnReturn() { var t = top(); if (t.group === 'inputs' && !t.loading) t.refreshInputs = true; }
++  function refreshInputsOnReturn() { var t = top(); if ((t.group === 'inputs' || t.group === 'headphones') && !t.loading) t.refreshInputs = true; }
+   function goScene(name) {
+     FrameDevice.cancelSource();
+     if (top().id === 'wallpaper') cancelWallpaperTimer(top());
+@@ -1812,6 +1852,8 @@
+     else if (name === 'editor') { openSettings(); openEditor('settings'); }
+     after();
+   }
++  /* The remote's Home button: back to Home from any panel (HomeActivity.onNewIntent). */
++  window.FrameHome = function () { if (S.stack.length > 1) goScene('home'); };
+   function fit() {
+     var scale = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+     stage.style.transform = 'scale(' + scale + ')';
+diff -ruN --exclude=*.jpg --exclude=*.woff2 --exclude=*.ttf --exclude=*.png a/style.css b/style.css
+--- a/style.css	2026-11-25 18:24:52
++++ b/style.css	2026-11-25 18:24:52
+@@ -380,6 +380,7 @@
+ .bg-dark{--mute:rgba(246,241,231,.72);--faint:rgba(246,241,231,.50);--line:rgba(246,241,231,.14);--knock:#0d0d0d;--solid-mute:rgba(29,26,22,.68);--solid-warn:#8a4b00;--warn:#e8b36a;--plate:rgba(246,241,231,.08);--plate-edge:inset 0 1px 0 rgba(255,250,240,.1);--lift:rgba(246,241,231,.15)}
+ .scene{position:absolute;left:0;top:0;width:1920px;height:1080px;background:var(--ground);overflow:hidden;transform-origin:0 0}
+ .at-appearance .scene,.at-wallpaper .scene{z-index:2;transform:translate3d(858px,288px,0) scale(.48);border-radius:32px;pointer-events:none}
++.panel-headphones .scene,.panel-inputs .scene{visibility:hidden}
+ .bg-dark.at-appearance .scene,.bg-light.at-appearance .scene{box-shadow:0 0 0 4px var(--line)}
+ .l-list .caption{left:auto;right:140px;top:112px;align-items:flex-end;text-align:right;max-width:880px}
+ .l-list.at-arrange .caption{top:72px}
+@@ -633,3 +634,7 @@
+ .l-list .quiet-utils.is-text .u-content>*+*{margin-left:0;margin-right:0}
+ .quiet-utils.is-text .u-content>*+*{margin-left:0}
+ .l-list .quiet-utils.is-text .u .u-content>*+*{margin-right:0}
++
++/* TCL port: the date beside the clock. */
++.clock-row{display:flex;align-items:baseline;gap:24px}
++.clock-date{font-size:28px;font-weight:500;letter-spacing:.2px;color:rgba(255,255,255,.86);text-shadow:0 1px 3px rgba(0,0,0,.25);white-space:nowrap}

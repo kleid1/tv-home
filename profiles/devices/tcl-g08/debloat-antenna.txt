@@ -1,0 +1,2 @@
+# TCL Live internet channels off, so Live TV shows only the antenna. Undo with tools/restore.sh <this file>
+com.tcl.channelplus   # TCL Live FAST channels (registers as a TV input)

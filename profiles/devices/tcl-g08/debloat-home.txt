@@ -1,0 +1,3 @@
+# Needed for a replacement Home on this firmware: the setup wizard claims Home once Google TV's home is off, and TCL Home is a promo tile.
+com.google.android.tungsten.setupwraith   # setup wizard; claims Home once launcherx is off
+com.tcl.dashboard   # TCL Home tile

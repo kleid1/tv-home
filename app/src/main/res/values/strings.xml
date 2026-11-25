@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remote_keys">Remote buttons: TCL opens Live TV, the purple button opens Stremio, and the app buttons open their apps.</string>
+</resources>
