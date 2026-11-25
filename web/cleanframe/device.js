@@ -10,7 +10,8 @@
   window.TVProfile = {
     apps: (profile.apps || []).map(function (a) { return { id: a.id, name: a.name, mark: true, appId: a['package'] }; }),
     clock: profile.clock || { hours: 24, date: true },
-    font: profile.font || null
+    font: profile.font || null,
+    back: profile.back || 'leave'
   };
   var BRANDS = {};
   window.TVProfile.apps.forEach(function (a) { BRANDS[a.appId] = a.id; });
@@ -54,6 +55,7 @@
     apps: apps, sources: sources, setSource: setSource, cancelSource: function () {},
     settings: function (done) { call('settings', [], done); },
     network: function (done) { call('network', [], done); },
+    screensaver: function (done) { call('screensaver', [], done); },
     headphones: function (done) { list('headphones', done); },
     connectHeadphones: function (address, connect, done) { call('connectHeadphones', [address, connect], done); },
     forgetHeadphones: function (address, done) { call('forgetHeadphones', [address], done); },

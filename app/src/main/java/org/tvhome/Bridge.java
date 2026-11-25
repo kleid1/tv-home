@@ -88,27 +88,26 @@ final class Bridge {
         return start(new Intent(Settings.ACTION_WIFI_SETTINGS));
     }
 
-    /** Installed TV apps for All apps: [{id, name, icon}], icon served at /icons/<package>.png. */
+    // ---- Screensaver ------------------------------------------------------------------------------------------
+
+    /** Marker for RemoteKeys: the screensaver page it should start (see RemoteKeys.startScreensaver). */
+    static final String SAVER_REQUEST = "saver-request";
+
+    /**
+     * Starts the TV's screensaver. Only the system may start it directly, so this opens Google TV's screensaver
+     * page and RemoteKeys presses its Start now (the first, focused row) within a second.
+     */
     @JavascriptInterface
-    public String apps() {
-        PackageManager pm = context.getPackageManager();
-        List<ResolveInfo> found = pm.queryIntentActivities(
-                new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LEANBACK_LAUNCHER), 0);
-        File dir = new File(context.getCacheDir(), ICON_DIR);
-        dir.mkdirs();
-        JSONArray out = new JSONArray();
-        for (ResolveInfo ri : found) {
-            String pkg = ri.activityInfo.packageName;
-            if (pkg.equals(context.getPackageName())) continue;
-            try {
-                saveIcon(ri.loadIcon(pm), new File(dir, pkg + ".png"));
-                out.put(new JSONObject().put("id", pkg).put("name", String.valueOf(ri.loadLabel(pm)))
-                        .put("icon", "/" + ICON_DIR + "/" + pkg + ".png"));
-            } catch (Exception skip) {
-                // an app whose label or icon cannot be read is left out
-            }
+    public String screensaver() {
+        if (Settings.Secure.getInt(context.getContentResolver(), "screensaver_enabled", 0) != 1) {
+            return "The screensaver is off in the TV's settings.";
         }
-        return out.toString();
+        try (FileOutputStream o = new FileOutputStream(new File(context.getFilesDir(), SAVER_REQUEST))) {
+            o.write('1');
+        } catch (Exception e) {
+            return "The TV could not start the screensaver.";
+        }
+        return start(new Intent("com.google.android.tv.settings.ambient").addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
     }
 
     // ---- Inputs -----------------------------------------------------------------------------------------------

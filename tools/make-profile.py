@@ -25,5 +25,6 @@ json.dump({
     "clock": person.get("clock", {"hours": 24, "date": True}),
     "headphones": person.get("headphones", {"waitForMe": True}),
     "font": person.get("font", "manrope"),
+    "back": person.get("back", "leave"),
 }, sys.stdout, indent=2)
 print()

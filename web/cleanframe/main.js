@@ -509,6 +509,11 @@
     var action = S.detailFocus[group] || (axis ? 'choice.' + axis + '.' + S.c[axis] : group === 'rotation' ? 'rotation.' + S.c.mode : 'samsung.settings');
     push({ id: 'appearance', group: group, f: { action: action } });
   }
+  /* Back on Home: the Leave Home sheet, or the screensaver when the profile says "back": "screensaver". */
+  function backAtHome() {
+    if (window.TVProfile && window.TVProfile.back === 'screensaver' && FrameDevice.screensaver) perform('Screensaver', FrameDevice.screensaver);
+    else openMessage('leave');
+  }
   function openMessage(key) { push({ id: 'message', msg: key, f: { b: 0 } }); }
   function openApps() {
     var e = { id: 'apps', mode: 'browse', top: 0, f: { zone: 'grid', i: Math.max(0, ALPHA.indexOf(S.appsFocus)), h: 0 } };
@@ -546,7 +551,7 @@
       }
       f.zone = 'apps';
       if (k === x.out) { f.zone = 'util'; f.u = clamp(S.lastUtil, 0, U.length - 1); }
-      else if (k === 'back') openMessage('leave');
+      else if (k === 'back') backAtHome();
       else if (!h.length) { if (k === 'ok') addAppsRoute(); }
       else if (k === x.prev && i > 0) setSel(h[i - 1]);
       else if (k === x.next && i < h.length - 1) setSel(h[i + 1]);
@@ -575,7 +580,7 @@
     if (k === 'up' && i > 0) setSel(h[i - 1]);
     else if (k === 'right') { f.zone = 'util'; f.u = clamp(S.lastUtil, 0, U.length - 1); }
     else if (k === 'down' && i < h.length - 1) setSel(h[i + 1]);
-    else if (k === 'back') openMessage('leave');
+    else if (k === 'back') backAtHome();
     else if (k === 'ok') { if (h.length) launch(S.sel); else addAppsRoute(); }
   }
 

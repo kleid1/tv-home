@@ -13,6 +13,7 @@ to move to a newer CleanFrame.
 | `main.js` | Panel focus fix | A panel with no setting axis (Inputs, Headphones) treated every row as the applied choice and opened on its last row |
 | `main.js`, `style.css` | No Home preview in Inputs and Headphones | The small preview of Home belongs to the look settings; these panels show the list alone |
 | `main.js` | `window.FrameHome()` | The remote's Home button closes any panel (called from `HomeActivity.onNewIntent`) |
+| `main.js` | Back on Home | `backAtHome()`: the Leave Home sheet, or the screensaver when the profile says `"back": "screensaver"` |
 | `main.js` | Clock | 12 or 24 hours and the date beside the time, from the profile |
 | `main.js` | Wording | "Samsung" settings and the Back sheet point to the TV's settings; icons-only controls by default |
 | `main.js`, `assets/` | Google Sans font | Google Sans Flex (OFL), trimmed to Latin as woff2, as a font choice; the profile's `font` sets the default |
