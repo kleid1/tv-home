@@ -20,7 +20,8 @@ tv cmd package set-home-activity "$PKG/.HomeActivity" >/dev/null
 # Google TV keeps answering Home while its own launcher is on. Switch it off now that this app is installed
 # and holds Home; CleanYourTV's disable script keeps its Home guard and an undo record (restore.sh turns it on).
 STOCK_LIST="$ROOT/profiles/devices/$(python3 -c "import json,sys;print(json.load(open(sys.argv[1]))['device'])" "$PERSON")/stock-home.txt"
-if [ -f "$STOCK_LIST" ] && tv pm list packages -e | tr -d '\r' | grep -qxF "package:$(grep -v '^#' "$STOCK_LIST" | head -1)"; then
+# `pm list packages -e` also lists the inactive system copy of an updated launcher, so ask whether it is disabled.
+if [ -f "$STOCK_LIST" ] && ! tv pm list packages -d | tr -d '\r' | grep -qxF "package:$(grep -v '^#' "$STOCK_LIST" | head -1)"; then
   [ -d "$ROOT/.cleanyourtv" ] || { echo "Run tools/debloat.sh first: it sets up CleanYourTV, which switches off the stock Home."; exit 1; }
   TV_HOST="$TV_HOST" "$ROOT/.cleanyourtv/tools/disable.sh" "$STOCK_LIST" | grep -E 'new state|refus|Skipping' || true
   sleep 15   # Android saves package states a few seconds later; a restart before that brings the launcher back
